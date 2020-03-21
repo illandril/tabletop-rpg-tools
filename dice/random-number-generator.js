@@ -1,29 +1,15 @@
 /* SPDX-License-Identifier: MIT */
 
 /*
- * This is a simple, seedable Random Number Generator.
+ * This is a simple class that takes a [0, 1) random number generator, and expands it with common
+ * functions to generate numbers in other ranges or otherwise take advantage of the randomness.
+ * If no random number generator function is provided, it uses Math.random
  *
- * WARNING: DO NOT USE FOR SECURITY. Since this is predictable, it is NOT secure.
- * This is for use in situations where being able to perfectly reproduce a random result is important.
- *
- * Algorithm source: https://github.com/bryc/code/blob/master/jshash/PRNGs.md#mulberry32
+ * WARNING: DO NOT USE FOR SECURITY. Math.random is NOT random enough for many security needs.
+ * Even if you provide a secure random number generator to this class, security was NOT a
+ * consideration when this class was created, so some of the functions provided may take an otherwise
+ * secure random number and provide a result that is too predictable for security needs.
  */
-
-/**
- * The actual Random Number Generator - mulberry32
- * Original mulberry32 c code: https://gist.github.com/tommyettinger/46a874533244883189143505d203312c
- * Javascript conversion source: https://github.com/bryc/code/blob/master/jshash/PRNGs.md#mulberry32
- * This function (mulberry32) is available in the Public Domain.
- */
-function mulberry32(a) {
-  return function() {
-    a |= 0;
-    a = a + 0x6D2B79F5 | 0;
-    let t = Math.imul(a ^ a >>> 15, 1 | a);
-    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
-    return ((t ^ t >>> 14) >>> 0) / 4294967296;
-  }
-}
 
 function withMinMax(min, max, randomFunction) {
   if (!Number.isInteger(min)) {
@@ -48,18 +34,12 @@ function randomToInt(value, min, max) {
 }
 
 const TWO_PI = 2 * Math.PI;
-let resamples = 0;
 
 class RandomNumberGenerator {
-  #seed;
   #next;
-  constructor(seed) {
-    this.#seed = Number.isInteger(seed) ? seed : Math.floor(Math.random() * 4294967296);
-    this.#next = mulberry32(this.#seed);
-    Object.freeze(this);
+  constructor(optRNG) {
+    this.#next = optRNG || Math.random;
   }
-
-  get seed() { return this.#seed; }
 
   /**
    * Generates a random int from min (inclusive) to max (exclusive)
@@ -72,7 +52,7 @@ class RandomNumberGenerator {
    * Rolls a dice with the specified number of sides
    */
   d(sides) {
-    return sides > 0 ? this.int(1, sides) : 0;
+    return sides > 0 ? this.int(1, sides+1) : 0;
   }
 
   nextNonZero() {
@@ -142,10 +122,6 @@ class RandomNumberGenerator {
       arr[i] = arr[j];
       arr[j] = temp;
     }
-  }
-
-  get resamples() {
-    return resamples;
   }
 }
 

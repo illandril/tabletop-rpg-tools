@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<!-- SPDX-License-Identifier: MIT -->
+
+<head>
+  <title>DiceBag Test</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <div id="graph"></div>
+  <script type="module">
+import { DiceBag } from './dice-bag.js';
+
+const diceBag = new DiceBag();
+
+const table = document.createElement('table');
+graph.appendChild(table);
+
+const header = document.createElement('tr');
+table.appendChild(header);
+
+const hInput = document.createElement('th');
+hInput.appendChild(document.createTextNode('input'));
+header.appendChild(hInput);
+
+const hRoll = document.createElement('th');
+hRoll.appendChild(document.createTextNode('roll'));
+header.appendChild(hRoll);
+
+const rolls = ['0', '15', '-5', 'd6', 'd20', 'd100', '3d6', '1d20+7', '  1d20 - 7 ', '2d4 + 3d6', '1d100-1d10', '1d1+2d2+3d3+4d4','2d4*2d4/2d4+2d4'];
+rolls.forEach(roll => {
+  const row = document.createElement('tr');
+  table.appendChild(row);
+
+  const cInput = document.createElement('td');
+  cInput.appendChild(document.createTextNode(roll));
+  row.appendChild(cInput);
+
+  const cRoll = document.createElement('td');
+  row.appendChild(cRoll);
+  cRoll.appendChild(document.createTextNode(diceBag.r(roll)));
+});
+  </script>
+</body>
+
+</html>

@@ -9,10 +9,6 @@
       text-align: center;
     }
 
-    #graph th:first-child {
-      text-align: right;
-    }
-
     #graph td {
       vertical-align: bottom;
       padding: 8px;
@@ -34,7 +30,7 @@
 <body>
   <div id="graph"></div>
   <script type="module">
-    import { RandomNumberGenerator } from './rng-mulberry32.js';
+import { RandomNumberGenerator } from './random-number-generator.js';
 
 const graph = document.getElementById('graph');
 const runCount = 500000;
@@ -49,10 +45,6 @@ graph.appendChild(table);
 const header = document.createElement('tr');
 table.appendChild(header);
 
-const hSeed = document.createElement('th');
-hSeed.appendChild(document.createTextNode('Seed'));
-header.appendChild(hSeed);
-
 const hInt = document.createElement('th');
 hInt.appendChild(document.createTextNode('rng.int'));
 header.appendChild(hInt);
@@ -61,24 +53,18 @@ const hNormalInt = document.createElement('th');
 hNormalInt.appendChild(document.createTextNode('rng.normalInt'));
 header.appendChild(hNormalInt);
 
-const seeds = ['Random', 'Random', 'Random', 'Random', 'Random', 1234, 1234, 1, 2, 3, 4];
-
-seeds.forEach(seed => {
+for ( let i = 0; i < 10; i++ ) {
   const row = document.createElement('tr');
   table.appendChild(row);
 
-  const cSeed = document.createElement('th');
-  cSeed.appendChild(document.createTextNode(seed));
-  row.appendChild(cSeed);
-
-  const intRNG = new RandomNumberGenerator(seed);
+  const intRNG = new RandomNumberGenerator();
   const intResults = [];
   for ( let i = 0; i < runCount; i++ ) {
     const value = intRNG.int(0, max);
     intResults[value] = (intResults[value]||0) + 1;
   }
 
-  const normalIntRNG = new RandomNumberGenerator(seed);
+  const normalIntRNG = new RandomNumberGenerator();
   const normalIntResults = [];
   for ( let i = 0; i < runCount; i++ ) {
     const value = normalIntRNG.normalInt(0, max);
@@ -108,9 +94,7 @@ seeds.forEach(seed => {
   });
   cNormalInt.appendChild( cNormalIntResults );
   row.appendChild(cNormalInt);
-});
-const rng = new RandomNumberGenerator();
-console.log( rng.resamples + ' (' + (Math.floor(rng.resamples / (runCount * seeds.length)*10000) / 100) + '%)');
+}
 
   </script>
 </body>
