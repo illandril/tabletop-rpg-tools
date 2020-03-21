@@ -1,0 +1,9 @@
+A variety of licenses are used in this repository.
+
+Each subdirectory contains a LICENSE file with the license for the files within that subdirectory.
+Most files will have a SPDX-License-Identifier comment or other indicator in it detailing which license applies to each file.
+
+These licenses I currently am using, or expect to be using, include...
+* The MIT License: https://opensource.org/licenses/MIT
+* The Open Game License: http://www.opengamingfoundation.org/ogl.html
+* Creative Commons Attribution-NonCommercial 3.0 Unported License: http://creativecommons.org/licenses/by-nc/3.0/
