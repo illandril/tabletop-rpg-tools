@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<!-- SPDX-License-Identifier: MIT -->
+<head>
+  <title>svg Test</title>
+  <style>
+  svg {
+    border: 1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="container"></div>
+  <script type="module">
+import { SVG } from './svg.js';
+
+const svg = new SVG( 100, 100 );
+
+// Quads
+{
+  const quads = svg.addGroup();
+  quads.fillOpacity = 0.2;
+
+  const quad1 = quads.addRectangle(50, 50);
+  quad1.fill = '#00f';
+
+  const quad2 = quads.addRectangle(50, 50);
+  quad2.fill = '#f00';
+  quad2.x = 50;
+
+  const quad3 = quads.addRectangle(50, 50);
+  quad3.fill = '#f00';
+  quad3.y = 50;
+
+  const quad4 = quads.addRectangle(50, 50);
+  quad4.fill = '#00f';
+  quad4.x = 50;
+  quad4.y = 50;
+}
+
+const sq = svg.addRectangle(20, 20);
+sq.x = 40;
+sq.y = 40;
+sq.rotate(45, 50, 50);
+
+const sq2 = svg.addUse(sq);
+sq2.x = 10;
+//sq2.y = 10;
+sq2.fill = '#0f0';
+
+const container = document.getElementById('container');
+container.appendChild( svg.element );
+
+const link = document.createElement('a');
+link.href = svg.downloadURL;
+link.download = 'test.svg';
+link.appendChild(document.createTextNode('Download'));
+container.appendChild(link);
+
+  </script>
+</body>
+
+</html>
