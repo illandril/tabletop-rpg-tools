@@ -1,0 +1,35 @@
+#form>div {
+  margin-bottom: 8px;
+}
+
+div.label,
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.horizontal>div:not(.label) {
+  display: inline-block;
+}
+
+.horizontal>div:not(.label)+div {
+  margin-left: 8px;
+}
+
+input[type="range"],
+input[type="range"]+span {
+  vertical-align: middle;
+}
+
+input[type="range"]+span {
+  padding-left: 4px;
+}
+
+body>div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#dungeonContainer {
+  padding: 1px;
+}

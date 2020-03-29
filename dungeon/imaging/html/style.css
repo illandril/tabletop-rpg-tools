@@ -1,0 +1,133 @@
+/* SPDX-License-Identifier: MIT */
+.dungeonjs-dungeon {
+  box-sizing: border-box;
+}
+
+.dungeonjs-dungeon * {
+  box-sizing: inherit;
+}
+
+.dungeonjs-dungeon+.dungeonjs-dungeon {
+  margin-top: 2px;
+  background-color: #404;
+}
+
+.dungeonjs-dungeon {
+  --cell-width: 24px;
+  --border-width: 6px;
+  --grid-width: 1px;
+  --grid-color: rgba(196, 196, 196, 0.75);
+  --half-border: calc((var(--border-width) - var(--grid-width)) / 2);
+  --half-border-plus-grid: calc(var(--half-border) + var(--grid-width));
+  position: relative;
+  border-collapse: collapse;
+  background-color: #333;
+}
+
+.dungeonjs-dungeon::after {
+  /* Grid Lines */
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(0deg,
+      var(--grid-color),
+      transparent var(--grid-width),
+      transparent calc(var(--border-width) + var(--cell-width))),
+    repeating-linear-gradient(90deg,
+      var(--grid-color),
+      transparent var(--grid-width),
+      transparent calc(var(--border-width) + var(--cell-width)));
+  pointer-events: none;
+}
+
+.dungeonjs-dungeon td {
+  width: var(--cell-width);
+  height: var(--cell-width);
+  text-align: center;
+  position: relative;
+  color: #000;
+}
+
+.dungeonjs-dungeon tr:nth-child(odd) td {
+  height: var(--border-width);
+  font-size: 0px;
+}
+
+.dungeonjs-dungeon tr:first-child td,
+.dungeonjs-dungeon tr:last-child td {
+  height: var(--half-border-plus-grid);
+}
+
+.dungeonjs-dungeon td:nth-child(odd) {
+  width: var(--border-width);
+  font-size: 0px;
+}
+
+.dungeonjs-dungeon td:first-child,
+.dungeonjs-dungeon td:last-child {
+  width: var(--half-border-plus-grid);
+}
+
+.dungeonjs-debug .dungeonjs-blocked {
+  background-color: #f0f;
+}
+
+.dungeonjs-openspace {
+  background-color: #fff;
+}
+
+.dungeonjs-doorspace {
+  background-color: #f0f;
+}
+
+.dungeonjs-door-arch {
+  background-color: rgba(225, 225, 225, 1);
+}
+
+.dungeonjs-door-unlocked {
+  background-color: rgba(0, 255, 0, 1);
+}
+
+.dungeonjs-door-locked {
+  background-color: rgba(200, 150, 0, 1);
+}
+
+.dungeonjs-door-trapped {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.dungeonjs-door-secret {
+  background-color: rgba(150, 150, 0, 0.5);
+}
+
+.dungeonjs-door-portcullis {
+  background-color: rgba(175, 175, 175, 1);
+}
+
+.dungeonjs-stairs-down,
+.dungeonjs-stairs-up {
+  font-size: 10px;
+}
+
+.dungeonjs-stairs-down::after {
+  content: 'd';
+}
+
+.dungeonjs-stairs-up::after {
+  content: 'u';
+}
+
+.dungeonjs-debug .dungeonjs-corridor:not(.dungeonjs-doorspace) {
+  background-color: #cfc;
+}
+
+.dungeonjs-debug .dungeonjs-deadEnd {
+  border: 2px solid pink;
+}
+
+.dungeonjs-cell[title] {
+  cursor: help;
+}
