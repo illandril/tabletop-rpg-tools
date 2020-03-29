@@ -1,0 +1,31 @@
+#page {
+  text-align: center;
+}
+
+#bag .dice {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+}
+
+#bag .dice:hover {
+  background-color: rgba(0,125,255,0.25);
+}
+
+
+#table {
+  padding: 10px;
+  font-size: 32px;
+}
+
+#table > * {
+  vertical-align: middle;
+  margin: auto;
+  min-width: 64px;
+  display: inline-block;
+}
+
+#history {
+  display: inline-block;
+  text-align: left;
+}

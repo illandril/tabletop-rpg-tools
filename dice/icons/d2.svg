@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 100 100">
+  <title>2-sided die</title>
+  <style>
+    .dice,
+    .digit {
+      stroke: #000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .dice {
+      fill: #fff;
+      stroke-width: 3;
+    }
+    .dice.back {
+      fill: #000;
+    }
+    .digit {
+      stroke-width: 6;
+      fill: none;
+    }
+  </style>
+  <ellipse class="dice back" cx="50" cy="52.5" rx="45" ry="40"/>
+  <ellipse class="dice front" cx="50" cy="47.5" rx="45" ry="40"/>
+  <path class="digit" d="M40,30l20,0 0,17.5 -20,0 0,17.5 20,0"/>
+</svg>
