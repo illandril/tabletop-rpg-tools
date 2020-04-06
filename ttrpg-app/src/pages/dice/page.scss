@@ -1,0 +1,68 @@
+/* SPDX-License-Identifier: MIT */
+
+@import '../../theme.scss';
+
+.dice-bag {
+  text-align: center;
+  img {
+    width: 48px;
+  }
+}
+
+.dice-roll {
+  padding: 10px;
+  text-align: center;
+  font-size: 32px;
+
+  img {
+    width: 48px;
+  }
+
+  > * {
+    vertical-align: middle;
+    margin: auto;
+    min-width: 56px;
+    display: inline-block;
+  }
+
+  &.animate-enter .dice-roll-dice {
+    animation-name: dice-roll-spin;
+    animation-duration: 150ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  &.animate-enter .dice-roll-dice.dice-roll-coin {
+    animation-name: dice-roll-toss;
+  }
+  &.animate-leave {
+    display: none;
+  }
+}
+
+.dice-history .dice-roll {
+  font-size: 16px;
+  img {
+    width: 32px;
+  }
+  > * {
+    min-width: 40px;
+  }
+}
+
+@keyframes dice-roll-toss {
+  from {
+    transform: rotate3d(2, 4, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(3, 2, 2, 1turn);
+  }
+}
+
+@keyframes dice-roll-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}

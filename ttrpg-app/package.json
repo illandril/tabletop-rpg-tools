@@ -1,0 +1,54 @@
+{
+  "name": "ttrpg-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@illandril/tabletop-rpg-tools": "file:../library",
+    "@material-ui/core": "^4.9.8",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.6",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-transition-group": "^1.2.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "test": "echo \"No tests\" && exit 1"
+  },
+  "browserslist": [
+    ">0.5%",
+    "last 2 chrome versions",
+    "last 2 firefox versions",
+    "Firefox ESR",
+    "last 2 edge versions",
+    "last 2 safari versions",
+    "not dead",
+    "not op_mini all",
+    "not IE 11",
+    "not safari < 11"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "favicons-webpack-plugin": "^3.0.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.0.4",
+    "interpolate-html-plugin": "^3.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

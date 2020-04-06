@@ -1,0 +1,11 @@
+/* SPDX-License-Identifier: MIT */
+
+@import '../../../theme.scss';
+
+.dungeon-display {
+  padding: theme-spacing(2);
+}
+
+.dungeon-loading {
+  padding: theme-spacing(4);
+}

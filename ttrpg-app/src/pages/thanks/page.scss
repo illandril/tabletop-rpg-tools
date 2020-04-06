@@ -1,0 +1,14 @@
+/* SPDX-License-Identifier: MIT */
+
+@import '../../theme.scss';
+
+.thanks-page {
+  ul {
+    margin: 0;
+  }
+  > p,
+  li {
+    margin-top: theme-spacing(1);
+    margin-bottom: theme-spacing(1);
+  }
+}

@@ -9,25 +9,26 @@ At the moment, these tools will not be useful to people who are not Javascript d
 WARNING: This project is very much a WIP and there will likely be substantial changes. If you make use of any of these classes, be very careful when pulling updates - there is a very high risk that I will make non-backwards-compatible changes (at least in the short-term; eventually I hope that most of this becomes fairly stable).
 
 ## Licensing
-These tools are available under the MIT License (see LICENSE).
+These tools are mostly available under the MIT License, however some content is licensed under other licenses, including the Open Game License (see LICENSE for details).
 
-It is expected that some content in this repository will be licensed under other licenses in the future, including the Open Game License. If and when this happens, I will do my best to separate and label any non-MIT-licensed content in a clear way.
-
-All source files should include an SPDX-License-Identifier to help make it clear which license(s) apply to which files - if this is missing from any file, please let me know so I can correct this.
-
-## Dice
+## Library
+### Dice
 Tools to mimic things you would do with dice.
 
 
-## Dungeon
+### Dungeon
 A random dungeon generator.
 
 
-### Special Thanks
+#### Special Thanks
 This dungeon generator was heavily inspired by dungeon.pl, a perl Random Dungeon Generator by drow.
 
 The original dungeon.pl can be found here: https://donjon.bin.sh
 
 
-## Imaging
+### Imaging
 Classes to make creating simple SVG and other images a little easier. This isn't useful for DMs/Players directly, but is used by the dungeon classes to create an image of the dungeon, and may be used for other aspects as well (perhaps drawing simulated dice rolls or other graphics).
+
+
+## ttrpg-app
+The source for https://ttrpg.illandril.net

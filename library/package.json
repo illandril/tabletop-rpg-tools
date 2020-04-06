@@ -1,0 +1,45 @@
+{
+  "name": "@illandril/tabletop-rpg-tools",
+  "version": "0.0.1",
+  "description": "Useful Tabletop RPG Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illandril/tabletop-rpg-tools.git"
+  },
+  "author": "Joe Spandrusyszyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/illandril/tabletop-rpg-tools/issues"
+  },
+  "homepage": "https://github.com/illandril/tabletop-rpg-tools#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "babel-jest": "^25.2.4",
+    "jest": "^25.2.4"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
+    ]
+  }
+}

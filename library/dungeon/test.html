@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+  <!-- SPDX-License-Identifier: MIT -->
+  <head>
+    <title>Dungeon Test</title>
+    <link rel="stylesheet" href="./imaging/html/style.css" />
+    <style>
+      #form > div {
+        margin-bottom: 8px;
+      }
+
+      div.label,
+      label {
+        display: block;
+        font-weight: bold;
+      }
+
+      .horizontal > div:not(.label) {
+        display: inline-block;
+      }
+
+      .horizontal > div:not(.label) + div {
+        margin-left: 8px;
+      }
+
+      input[type='range'],
+      input[type='range'] + span {
+        vertical-align: middle;
+      }
+      input[type='range'] + span {
+        padding-left: 4px;
+      }
+      body > div {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      body:not(.dungeonjs-debug) #debug {
+        display: none;
+      }
+      #dungeonContainer,
+      #debug {
+        padding: 1px;
+      }
+      #debug {
+        margin-left: 2px;
+        background: #000;
+      }
+      #debug canvas {
+        box-sizing: border-box;
+        vertical-align: middle;
+        image-rendering: pixelated;
+      }
+
+      .dungeonjs-debug #dungeonContainer {
+        background-color: black;
+      }
+      .dungeonjs-debug #dungeonContainer > * {
+        margin: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="form">
+      <div>
+        <label><input type="checkbox" id="debugCheckbox" /> Debug</label>
+      </div>
+      <div>
+        <label for="seed">Seed</label>
+        <input id="seed" type="number" min="0" max="99999999" value="" />
+        <button id="randomSeed">Random</button>
+      </div>
+      <div>
+        <label for="dungeonLayout">Dungeon Layout</label>
+        <select id="dungeonLayout"></select>
+      </div>
+      <div class="horizontal">
+        <div class="label">Dungeon Size</div>
+        <div>
+          <label for="rows">Rows</label>
+          <input id="rows" type="number" min="5" max="100" value="10" />
+        </div>
+        <div>
+          <label for="cols">Cols</label>
+          <input id="cols" type="number" min="5" max="100" value="10" />
+        </div>
+      </div>
+      <div>
+        <label for="roomLayout">Room Layout</label>
+        <select id="roomLayout"></select>
+      </div>
+      <div>
+        <label for="roomMin">Minimum Room Size</label>
+        <input id="roomMin" type="range" step="1" min="2" max="20" value="2" /><span
+          id="roomMinDisplay"
+        ></span>
+      </div>
+      <div>
+        <label for="roomMax">Maximum Room Size</label>
+        <input id="roomMax" type="range" step="1" min="2" max="20" value="4" /><span
+          id="roomMaxDisplay"
+        ></span>
+      </div>
+      <div>
+        <label for="corridorLayout">Corridor Layout</label>
+        <select id="corridorLayout">
+          <option value="Labyrinth">Labyrinth</option>
+          <option value="Bent" selected>Bent</option>
+          <option value="Straight">Straight</option>
+        </select>
+      </div>
+      <div>
+        <label for="deadendRemovalPercent">Deadend Removal Percentage</label>
+        <input id="deadendRemovalPercent" type="range" step="5" min="0" max="100" value="50" /><span
+          id="deadendRemovalPercentDisplay"
+        ></span>
+      </div>
+      <div>
+        <label for="stairCount">Stair Count</label>
+        <input id="stairCount" type="range" step="1" min="0" max="20" value="2" /><span
+          id="stairCountDisplay"
+        ></span>
+      </div>
+      <button id="generate">Generate New Dungeon</button>
+      <button id="speedTest">Speed Test</button>
+    </div>
+    <div id="dungeonContainer"></div>
+    <div id="debug"></div>
+    <script type="module">
+      function emptyNode(node) {
+        while (node.hasChildNodes()) {
+          node.removeChild(node.lastChild);
+        }
+      }
+      import DungeonFactory from './dungeon-factory.js';
+      import DungeonLayouts from './dungeon-layout/dungeon-layouts.js';
+      import RoomLayouts from './room/room-layouts.js';
+      import dungeonToHTML from './imaging/html/dungeon-imager-html.js';
+      import dungeonToSVG from './imaging/image/dungeon-imager-svg.js';
+
+      const debug = document.getElementById('debug');
+      const container = document.getElementById('dungeonContainer');
+
+      const debugCheckbox = document.getElementById('debugCheckbox');
+      debugCheckbox.addEventListener('input', updateDebug, false /* useCapture */);
+      function updateDebug() {
+        if (debugCheckbox.checked) {
+          document.body.classList.add('dungeonjs-debug');
+        } else {
+          document.body.classList.remove('dungeonjs-debug');
+        }
+      }
+
+      const seedInput = document.getElementById('seed');
+
+      const randomSeedButton = document.getElementById('randomSeed');
+      randomSeedButton.addEventListener(
+        'click',
+        function() {
+          seedInput.value = Math.floor(Math.random() * ((seedInput.max | 0) + 1));
+          generate();
+        },
+        false /* useCapture */
+      );
+      seedInput.addEventListener('input', generate, false /* useCapture */);
+
+      const rowsInput = document.getElementById('rows');
+      const colsInput = document.getElementById('cols');
+      const roomMinInput = document.getElementById('roomMin');
+      const roomMinDisplay = document.getElementById('roomMinDisplay');
+      const roomMaxInput = document.getElementById('roomMax');
+      const roomMaxDisplay = document.getElementById('roomMaxDisplay');
+
+      function clampInput(input, opt_overrideMin) {
+        return Math.max(opt_overrideMin || input.min, Math.min(input.max, input.value | 0));
+      }
+
+      roomMinInput.addEventListener('input', updateRoomMinMaxDisplay, false /* useCapture */);
+      roomMaxInput.addEventListener('input', updateRoomMinMaxDisplay, false /* useCapture */);
+      rowsInput.addEventListener('input', updateRoomMinMaxDisplay, false /* useCapture */);
+      colsInput.addEventListener('input', updateRoomMinMaxDisplay, false /* useCapture */);
+      function updateRoomMinMaxDisplay() {
+        const rows = clampInput(rowsInput);
+        const cols = clampInput(colsInput);
+        roomMinInput.max = roomMaxInput.max = Math.min(rows, cols);
+
+        const roomMin = clampInput(roomMinInput);
+        roomMinInput.value = roomMin;
+        const roomMax = clampInput(roomMaxInput, roomMin);
+        roomMaxInput.value = roomMax;
+
+        emptyNode(roomMinDisplay);
+        roomMinDisplay.appendChild(document.createTextNode(roomMin));
+        emptyNode(roomMaxDisplay);
+        roomMaxDisplay.appendChild(document.createTextNode(roomMax));
+      }
+      updateRoomMinMaxDisplay();
+
+      function addOptions(select, namedOptions) {
+        namedOptions.forEach((namedOption) => {
+          const option = document.createElement('option');
+          option.value = namedOption.id;
+          option.appendChild(document.createTextNode(namedOption.name));
+          select.appendChild(option);
+        });
+      }
+      const dungeonLayoutInput = document.getElementById('dungeonLayout');
+      addOptions(dungeonLayoutInput, DungeonLayouts);
+
+      const roomLayoutInput = document.getElementById('roomLayout');
+      addOptions(roomLayoutInput, RoomLayouts);
+
+      const corridorLayoutInput = document.getElementById('corridorLayout');
+
+      const deadendRemovalPercentInput = document.getElementById('deadendRemovalPercent');
+      const deadendRemovalPercentDisplay = document.getElementById('deadendRemovalPercentDisplay');
+      deadendRemovalPercentInput.addEventListener(
+        'input',
+        updateDeadendPercentDisplay,
+        false /* useCapture */
+      );
+      function updateDeadendPercentDisplay() {
+        emptyNode(deadendRemovalPercentDisplay);
+        deadendRemovalPercentDisplay.appendChild(
+          document.createTextNode(clampInput(deadendRemovalPercentInput) + '%')
+        );
+      }
+      updateDeadendPercentDisplay();
+
+      const stairCountInput = document.getElementById('stairCount');
+      const stairCountDisplay = document.getElementById('stairCountDisplay');
+      stairCountInput.addEventListener('input', updateStairCountDisplay, false /* useCapture */);
+      function updateStairCountDisplay() {
+        emptyNode(stairCountDisplay);
+        stairCountDisplay.appendChild(document.createTextNode(clampInput(stairCountInput)));
+      }
+      updateStairCountDisplay();
+
+      rowsInput.addEventListener('input', preview, false /* useCapture */);
+      colsInput.addEventListener('input', preview, false /* useCapture */);
+      dungeonLayoutInput.addEventListener('input', preview, false /* useCapture */);
+
+      function preview() {
+        const rows = clampInput(rowsInput);
+        const cols = clampInput(colsInput);
+        const dungeonLayout = dungeonLayoutInput.value;
+        emptyNode(debug);
+        DungeonLayouts.forEach((layout) => {
+          if (layout.name === dungeonLayout) {
+            layout.debug(debug, rows, cols);
+          }
+        });
+      }
+      preview();
+
+      dungeonLayoutInput.addEventListener('input', generate, false /* useCapture */);
+      rowsInput.addEventListener('input', generate, false /* useCapture */);
+      colsInput.addEventListener('input', generate, false /* useCapture */);
+      roomLayoutInput.addEventListener('input', generate, false /* useCapture */);
+      roomMinInput.addEventListener('input', generate, false /* useCapture */);
+      roomMaxInput.addEventListener('input', generate, false /* useCapture */);
+      corridorLayoutInput.addEventListener('input', generate, false /* useCapture */);
+      deadendRemovalPercentInput.addEventListener('input', generate, false /* useCapture */);
+      stairCountInput.addEventListener('input', generate, false /* useCapture */);
+
+      async function generate() {
+        emptyNode(container);
+
+        const seed = seedInput.value | 0;
+        const rows = clampInput(rowsInput);
+        const cols = clampInput(colsInput);
+        const roomMin = clampInput(roomMinInput);
+        const roomMax = clampInput(roomMaxInput);
+        const dungeonLayout = dungeonLayoutInput.value;
+        const roomLayout = roomLayoutInput.value;
+        const corridorLayout = corridorLayoutInput.value;
+        const deadendRemovalPercent = clampInput(deadendRemovalPercentInput);
+        const stairCount = clampInput(stairCountInput);
+        const dungeonFactory = new DungeonFactory(seed);
+        dungeonFactory.rows = rows;
+        dungeonFactory.cols = cols;
+
+        let dungeonLayoutObj = DungeonLayouts[0];
+        DungeonLayouts.some((layout) => {
+          if (layout.id === dungeonLayout) {
+            dungeonLayoutObj = layout;
+            return true;
+          }
+          return false;
+        });
+        dungeonFactory.dungeonLayout = dungeonLayoutObj;
+
+        let roomLayoutObj = RoomLayouts[0];
+        RoomLayouts.some((layout) => {
+          if (layout.id === roomLayout) {
+            roomLayoutObj = layout;
+            return true;
+          }
+        });
+        dungeonFactory.roomLayout = roomLayoutObj.create();
+        dungeonFactory.roomLayout.minRoomSize = roomMin;
+        dungeonFactory.roomLayout.maxRoomSize = roomMax;
+
+        let corridorStraightness;
+        if (corridorLayout === 'Labyrinth') {
+          corridorStraightness = 0;
+        } else if (corridorLayout === 'Straight') {
+          corridorStraightness = 1;
+        } else {
+          corridorStraightness = 0.5;
+        }
+        dungeonFactory.corridorLayout.corridorStraightness = corridorStraightness;
+        dungeonFactory.corridorLayout.stairCount = stairCount;
+        dungeonFactory.corridorLayout.deadendRemovalChance = deadendRemovalPercent / 100;
+
+        const dungeon = await dungeonFactory.createDungeon();
+        console.log('Generated - drawing');
+        container.appendChild(dungeonToHTML(dungeon));
+        const svg = dungeonToSVG(dungeon);
+        container.appendChild(svg.element);
+        const svgLink = document.createElement('a');
+        svgLink.href = svg.downloadURL;
+        svgLink.download = 'dungeon.svg';
+        svgLink.appendChild(document.createTextNode('download'));
+        container.appendChild(svgLink);
+        console.log('Done drawing');
+      }
+      const button = document.getElementById('generate');
+      button.addEventListener('click', generate, false /* useCapture */);
+
+      randomSeedButton.click();
+
+      const speedTestButton = document.getElementById('speedTest');
+      speedTestButton.addEventListener(
+        'click',
+        async function() {
+          console.log('Starting speed test...');
+          const speedTestRows = 25;
+          const speedTestCols = 25;
+          const speedTestLayout = 'Cross';
+          for (let seed = 0; seed < 1000; seed++) {
+            console.log(seed);
+            const dungeonFactory = new DungeonFactory(seed);
+            // dungeonFactory.rows = 10 + Math.ceil(seed / 100);
+            // dungeonFactory.cols = 10 + Math.ceil(seed / 50);
+            dungeonFactory.rows = speedTestRows;
+            dungeonFactory.cols = speedTestCols;
+            dungeonFactory.dungeonLayout = speedTestLayout;
+            dungeonFactory.roomLayout = RoomLayouts[0].create();
+            dungeonFactory.roomLayout.minRoomSize = 2;
+            dungeonFactory.roomLayout.maxRoomSize = 5;
+            dungeonFactory.corridorLayout.corridorStraightness = 0.5; //(seed % 101) / 100;
+            dungeonFactory.corridorLayout.stairCount = 8; //2 + seed % 3;
+            dungeonFactory.corridorLayout.deadendRemovalChance = 0.95; //(seed % 101) / 100;
+            const dungeon = await dungeonFactory.createDungeon();
+          }
+          console.log('Speed test complete!');
+        },
+        false /* useCapture */
+      );
+    </script>
+  </body>
+</html>
