@@ -67,27 +67,32 @@ const AppLayout = () => {
           </IconButton>
           <Typography variant="h6">{metadata.name}</Typography>
           <div className="header-spacer" />
-          {MainPages.map((item, index) => item.icon && (
-            <IconButton
-              key={item.path}
-              component={RouterLink}
-              to={item.path}
-              color="inherit"
-              alt={item.name}
-              title={item.name}
-            >
-              {item.icon}
-            </IconButton>
-          ))}
+          {MainPages.map(
+            (item, index) =>
+              item.icon && (
+                <IconButton
+                  key={item.path}
+                  component={RouterLink}
+                  to={item.path}
+                  color="inherit"
+                  alt={item.name}
+                  title={item.name}
+                >
+                  {item.icon}
+                </IconButton>
+              )
+          )}
           <IconButton
             edge="end"
             component="a"
+            target="_blank"
+            rel="external"
             href="https://github.com/illandril/tabletop-rpg-tools"
             color="inherit"
             alt="GitHub repository"
             title="GitHub repository"
           >
-            <GitHubIcon/>
+            <GitHubIcon />
           </IconButton>
         </Toolbar>
       </AppBar>
