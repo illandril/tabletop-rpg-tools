@@ -8,10 +8,10 @@ export default class DungeonLayout {
   _PRIVATE_maskAreas;
   _PRIVATE_excludedAreas;
   constructor(id, name, maskAreas, opt_excludedAreas) {
-    if ( typeof(id) !== 'string' ){
+    if (typeof id !== 'string') {
       throw new Error('id must be a string');
     }
-    if ( typeof(name) !== 'string' ){
+    if (typeof name !== 'string') {
       throw new Error('name must be a string');
     }
     this._PRIVATE_id = id;
@@ -34,6 +34,7 @@ export default class DungeonLayout {
       ? null
       : new Mask(rows, cols, this._PRIVATE_maskAreas, this._PRIVATE_excludedAreas);
   }
+
   mask(dungeon) {
     if (this._PRIVATE_maskAreas !== null) {
       const mask = new Mask(

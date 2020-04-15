@@ -39,8 +39,11 @@
   bottom: 0;
   background-size: var(--tile-width) var(--tile-width);
   background-position: var(--grid-offset) var(--grid-offset);
-  background-image:
-    linear-gradient(to right, var(--grid-color) var(--grid-width), transparent var(--grid-width)),
+  background-image: linear-gradient(
+      to right,
+      var(--grid-color) var(--grid-width),
+      transparent var(--grid-width)
+    ),
     linear-gradient(to bottom, var(--grid-color) var(--grid-width), transparent var(--grid-width));
   pointer-events: none;
 }

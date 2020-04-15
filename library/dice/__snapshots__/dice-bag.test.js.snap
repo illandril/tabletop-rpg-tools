@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`r: 1d6 1`] = `2`;
+
+exports[`r: 1d6 2`] = `1`;
+
+exports[`r: 1d6 3`] = `2`;
+
+exports[`r: 1d6 4`] = `1`;
+
+exports[`r: 1d6 5`] = `3`;
+
+exports[`r: 1d10 1`] = `6`;
+
+exports[`r: 1d10 2`] = `7`;
+
+exports[`r: 1d10 3`] = `7`;
+
+exports[`r: 1d10 4`] = `5`;
+
+exports[`r: 1d10 5`] = `6`;
+
+exports[`r: 1d20 1`] = `5`;
+
+exports[`r: 1d20 2`] = `2`;
+
+exports[`r: 1d20 3`] = `19`;
+
+exports[`r: 1d20 4`] = `9`;
+
+exports[`r: 1d20 5`] = `15`;
+
+exports[`r: 2d6 1`] = `9`;
+
+exports[`r: 2d6 2`] = `8`;
+
+exports[`r: 2d6 3`] = `3`;
+
+exports[`r: 2d6 4`] = `7`;
+
+exports[`r: 2d6 5`] = `6`;
+
+exports[`r: 2d10 1`] = `16`;
+
+exports[`r: 2d10 2`] = `9`;
+
+exports[`r: 2d10 3`] = `9`;
+
+exports[`r: 2d10 4`] = `9`;
+
+exports[`r: 2d10 5`] = `6`;
+
+exports[`r: 2d20 1`] = `13`;
+
+exports[`r: 2d20 2`] = `10`;
+
+exports[`r: 2d20 3`] = `24`;
+
+exports[`r: 2d20 4`] = `19`;
+
+exports[`r: 2d20 5`] = `31`;
+
+exports[`r: 4d6 1`] = `17`;
+
+exports[`r: 4d6 2`] = `10`;
+
+exports[`r: 4d6 3`] = `15`;
+
+exports[`r: 4d6 4`] = `5`;
+
+exports[`r: 4d6 5`] = `16`;
+
+exports[`r: 4d10 1`] = `24`;
+
+exports[`r: 4d10 2`] = `28`;
+
+exports[`r: 4d10 3`] = `13`;
+
+exports[`r: 4d10 4`] = `24`;
+
+exports[`r: 4d10 5`] = `24`;
+
+exports[`r: 4d20 1`] = `35`;
+
+exports[`r: 4d20 2`] = `31`;
+
+exports[`r: 4d20 3`] = `42`;
+
+exports[`r: 4d20 4`] = `45`;
+
+exports[`r: 4d20 5`] = `37`;
+
+exports[`roll: 1d6 1`] = `2`;
+
+exports[`roll: 1d6 2`] = `1`;
+
+exports[`roll: 1d6 3`] = `2`;
+
+exports[`roll: 1d6 4`] = `1`;
+
+exports[`roll: 1d6 5`] = `3`;
+
+exports[`roll: 1d10 1`] = `6`;
+
+exports[`roll: 1d10 2`] = `7`;
+
+exports[`roll: 1d10 3`] = `7`;
+
+exports[`roll: 1d10 4`] = `5`;
+
+exports[`roll: 1d10 5`] = `6`;
+
+exports[`roll: 1d20 1`] = `5`;
+
+exports[`roll: 1d20 2`] = `2`;
+
+exports[`roll: 1d20 3`] = `19`;
+
+exports[`roll: 1d20 4`] = `9`;
+
+exports[`roll: 1d20 5`] = `15`;
+
+exports[`roll: 2d6 1`] = `9`;
+
+exports[`roll: 2d6 2`] = `8`;
+
+exports[`roll: 2d6 3`] = `3`;
+
+exports[`roll: 2d6 4`] = `7`;
+
+exports[`roll: 2d6 5`] = `6`;
+
+exports[`roll: 2d10 1`] = `16`;
+
+exports[`roll: 2d10 2`] = `9`;
+
+exports[`roll: 2d10 3`] = `9`;
+
+exports[`roll: 2d10 4`] = `9`;
+
+exports[`roll: 2d10 5`] = `6`;
+
+exports[`roll: 2d20 1`] = `13`;
+
+exports[`roll: 2d20 2`] = `10`;
+
+exports[`roll: 2d20 3`] = `24`;
+
+exports[`roll: 2d20 4`] = `19`;
+
+exports[`roll: 2d20 5`] = `31`;
+
+exports[`roll: 4d6 1`] = `17`;
+
+exports[`roll: 4d6 2`] = `10`;
+
+exports[`roll: 4d6 3`] = `15`;
+
+exports[`roll: 4d6 4`] = `5`;
+
+exports[`roll: 4d6 5`] = `16`;
+
+exports[`roll: 4d10 1`] = `24`;
+
+exports[`roll: 4d10 2`] = `28`;
+
+exports[`roll: 4d10 3`] = `13`;
+
+exports[`roll: 4d10 4`] = `24`;
+
+exports[`roll: 4d10 5`] = `24`;
+
+exports[`roll: 4d20 1`] = `35`;
+
+exports[`roll: 4d20 2`] = `31`;
+
+exports[`roll: 4d20 3`] = `42`;
+
+exports[`roll: 4d20 4`] = `45`;
+
+exports[`roll: 4d20 5`] = `37`;
+
+exports[`rollValue: 1d6 1`] = `2`;
+
+exports[`rollValue: 1d6 2`] = `1`;
+
+exports[`rollValue: 1d6 3`] = `2`;
+
+exports[`rollValue: 1d6 4`] = `1`;
+
+exports[`rollValue: 1d6 5`] = `3`;
+
+exports[`rollValue: 1d10 1`] = `6`;
+
+exports[`rollValue: 1d10 2`] = `7`;
+
+exports[`rollValue: 1d10 3`] = `7`;
+
+exports[`rollValue: 1d10 4`] = `5`;
+
+exports[`rollValue: 1d10 5`] = `6`;
+
+exports[`rollValue: 1d20 1`] = `5`;
+
+exports[`rollValue: 1d20 2`] = `2`;
+
+exports[`rollValue: 1d20 3`] = `19`;
+
+exports[`rollValue: 1d20 4`] = `9`;
+
+exports[`rollValue: 1d20 5`] = `15`;
+
+exports[`rollValue: 2d6 1`] = `9`;
+
+exports[`rollValue: 2d6 2`] = `8`;
+
+exports[`rollValue: 2d6 3`] = `3`;
+
+exports[`rollValue: 2d6 4`] = `7`;
+
+exports[`rollValue: 2d6 5`] = `6`;
+
+exports[`rollValue: 2d10 1`] = `16`;
+
+exports[`rollValue: 2d10 2`] = `9`;
+
+exports[`rollValue: 2d10 3`] = `9`;
+
+exports[`rollValue: 2d10 4`] = `9`;
+
+exports[`rollValue: 2d10 5`] = `6`;
+
+exports[`rollValue: 2d20 1`] = `13`;
+
+exports[`rollValue: 2d20 2`] = `10`;
+
+exports[`rollValue: 2d20 3`] = `24`;
+
+exports[`rollValue: 2d20 4`] = `19`;
+
+exports[`rollValue: 2d20 5`] = `31`;
+
+exports[`rollValue: 4d6 1`] = `17`;
+
+exports[`rollValue: 4d6 2`] = `10`;
+
+exports[`rollValue: 4d6 3`] = `15`;
+
+exports[`rollValue: 4d6 4`] = `5`;
+
+exports[`rollValue: 4d6 5`] = `16`;
+
+exports[`rollValue: 4d10 1`] = `24`;
+
+exports[`rollValue: 4d10 2`] = `28`;
+
+exports[`rollValue: 4d10 3`] = `13`;
+
+exports[`rollValue: 4d10 4`] = `24`;
+
+exports[`rollValue: 4d10 5`] = `24`;
+
+exports[`rollValue: 4d20 1`] = `35`;
+
+exports[`rollValue: 4d20 2`] = `31`;
+
+exports[`rollValue: 4d20 3`] = `42`;
+
+exports[`rollValue: 4d20 4`] = `45`;
+
+exports[`rollValue: 4d20 5`] = `37`;

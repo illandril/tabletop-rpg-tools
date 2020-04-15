@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: MIT */
+
 import { DiceBag } from './dice/dice-bag.js';
 import { RandomNumberGenerator } from './dice/random-number-generator.js';
 import { RNGMulberry32 } from './dice/random-number-generator-mulberry32.js';

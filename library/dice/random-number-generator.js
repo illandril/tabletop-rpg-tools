@@ -11,6 +11,8 @@
  * secure random number and provide a result that is too predictable for security needs.
  */
 
+const TWO_PI = 2 * Math.PI;
+
 function withMinMax(min, max, randomFunction) {
   if (!Number.isInteger(min)) {
     throw new Error('min and max must be integers');
@@ -33,12 +35,14 @@ function randomToInt(value, min, max) {
   });
 }
 
-const TWO_PI = 2 * Math.PI;
+function defaultRNG() {
+  return Math.random();
+}
 
 export default class RandomNumberGenerator {
   _PRIVATE_next;
   constructor(optRNG) {
-    this._PRIVATE_next = optRNG || Math.random;
+    this._PRIVATE_next = optRNG || defaultRNG;
   }
 
   /**

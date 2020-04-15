@@ -4,7 +4,8 @@
   "description": "Useful Tabletop RPG Tools",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -16,11 +17,16 @@
     "url": "https://github.com/illandril/tabletop-rpg-tools/issues"
   },
   "homepage": "https://github.com/illandril/tabletop-rpg-tools#readme",
+  "dependencies": {
+    "nearley": "^2.19.2",
+    "shortid": "^2.2.15"
+  },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
     "babel-jest": "^25.2.4",
-    "jest": "^25.2.4"
+    "jest": "^25.2.4",
+    "prettier": "2.0.2"
   },
   "babel": {
     "presets": [

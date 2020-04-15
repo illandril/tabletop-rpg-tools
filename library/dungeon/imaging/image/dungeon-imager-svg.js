@@ -34,7 +34,9 @@ export default function dungeonToSVG(dungeon, optScale) {
   svg.addStyle('.dungeonjs-debug .deadEnd { display: initial; }');
   svg.addStyle('.tile.blocked { display: none; }');
   svg.addStyle('.dungeonjs-debug .tile.blocked { display: initial; }');
-  svg.addStyle('.border { fill: none; stroke: rgba(196, 196, 196, 0.75); stroke-width: ' + (borderWidth ) + '; }');
+  svg.addStyle(
+    '.border { fill: none; stroke: rgba(196, 196, 196, 0.75); stroke-width: ' + borderWidth + '; }'
+  );
 
   const bgRect = svg.addRectangle(dungeon.tileCols, dungeon.tileRows);
   bgRect.fill = '#333';
@@ -42,7 +44,7 @@ export default function dungeonToSVG(dungeon, optScale) {
   let lastRow = -1;
   let rowGroup = null;
   dungeon.forEachTile((tile) => {
-    if ( rowGroup === null || tile.tileRow != lastRow ) {
+    if (rowGroup === null || tile.tileRow != lastRow) {
       lastRow = tile.tileRow;
       rowGroup = svg.addGroup();
       rowGroup.addClass('tileRowContainer');
@@ -139,10 +141,10 @@ export default function dungeonToSVG(dungeon, optScale) {
 
   const gridContainer = svg.addGroup();
   gridContainer.addClass('border');
-  for ( let row = 0; row <= dungeon.tileRows; row++ ) {
+  for (let row = 0; row <= dungeon.tileRows; row++) {
     gridContainer.addLine(0, row, dungeon.tileCols, row);
   }
-  for ( let col = 0; col <= dungeon.tileCols; col++ ) {
+  for (let col = 0; col <= dungeon.tileCols; col++) {
     gridContainer.addLine(col, 0, col, dungeon.tileRows);
   }
   return svg;

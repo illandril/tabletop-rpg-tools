@@ -1,0 +1,7807 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nd%: 1d% 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-6",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 55,
+  "_PRIVATE_values": Array [
+    55,
+  ],
+}
+`;
+
+exports[`Nd%: 1d% 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-7",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 62,
+  "_PRIVATE_values": Array [
+    62,
+  ],
+}
+`;
+
+exports[`Nd%: 1d% 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-8",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 65,
+  "_PRIVATE_values": Array [
+    65,
+  ],
+}
+`;
+
+exports[`Nd%: 1d% 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-9",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 46,
+  "_PRIVATE_values": Array [
+    46,
+  ],
+}
+`;
+
+exports[`Nd%: 1d% 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-10",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 59,
+  "_PRIVATE_values": Array [
+    59,
+  ],
+}
+`;
+
+exports[`Nd%: 2d% 1`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-11",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 35,
+  "_PRIVATE_values": Array [
+    25,
+    10,
+  ],
+}
+`;
+
+exports[`Nd%: 2d% 2`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-12",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 132,
+  "_PRIVATE_values": Array [
+    91,
+    41,
+  ],
+}
+`;
+
+exports[`Nd%: 2d% 3`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-13",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 139,
+  "_PRIVATE_values": Array [
+    73,
+    66,
+  ],
+}
+`;
+
+exports[`Nd%: 2d% 4`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-14",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 144,
+  "_PRIVATE_values": Array [
+    81,
+    63,
+  ],
+}
+`;
+
+exports[`Nd%: 2d% 5`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-15",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 70,
+  "_PRIVATE_values": Array [
+    57,
+    13,
+  ],
+}
+`;
+
+exports[`Nd%: 3d% 1`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-16",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 140,
+  "_PRIVATE_values": Array [
+    25,
+    82,
+    33,
+  ],
+}
+`;
+
+exports[`Nd%: 3d% 2`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-17",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 179,
+  "_PRIVATE_values": Array [
+    9,
+    79,
+    91,
+  ],
+}
+`;
+
+exports[`Nd%: 3d% 3`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-18",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 139,
+  "_PRIVATE_values": Array [
+    56,
+    47,
+    36,
+  ],
+}
+`;
+
+exports[`Nd%: 3d% 4`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-19",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 139,
+  "_PRIVATE_values": Array [
+    10,
+    76,
+    53,
+  ],
+}
+`;
+
+exports[`Nd%: 3d% 5`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-20",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 67,
+  "_PRIVATE_values": Array [
+    21,
+    13,
+    33,
+  ],
+}
+`;
+
+exports[`Nd%: 4d% 1`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-21",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 106,
+  "_PRIVATE_values": Array [
+    26,
+    35,
+    27,
+    18,
+  ],
+}
+`;
+
+exports[`Nd%: 4d% 2`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-22",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 208,
+  "_PRIVATE_values": Array [
+    34,
+    82,
+    44,
+    48,
+  ],
+}
+`;
+
+exports[`Nd%: 4d% 3`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-23",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 299,
+  "_PRIVATE_values": Array [
+    74,
+    76,
+    97,
+    52,
+  ],
+}
+`;
+
+exports[`Nd%: 4d% 4`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-24",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 156,
+  "_PRIVATE_values": Array [
+    54,
+    39,
+    41,
+    22,
+  ],
+}
+`;
+
+exports[`Nd%: 4d% 5`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-25",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 204,
+  "_PRIVATE_values": Array [
+    65,
+    3,
+    39,
+    97,
+  ],
+}
+`;
+
+exports[`Nd%: 5d% 1`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-26",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 122,
+  "_PRIVATE_values": Array [
+    47,
+    49,
+    8,
+    1,
+    17,
+  ],
+}
+`;
+
+exports[`Nd%: 5d% 2`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-27",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 234,
+  "_PRIVATE_values": Array [
+    1,
+    76,
+    34,
+    23,
+    100,
+  ],
+}
+`;
+
+exports[`Nd%: 5d% 3`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-28",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 257,
+  "_PRIVATE_values": Array [
+    89,
+    47,
+    87,
+    8,
+    26,
+  ],
+}
+`;
+
+exports[`Nd%: 5d% 4`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-29",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 268,
+  "_PRIVATE_values": Array [
+    73,
+    83,
+    79,
+    10,
+    23,
+  ],
+}
+`;
+
+exports[`Nd%: 5d% 5`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-30",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 247,
+  "_PRIVATE_values": Array [
+    45,
+    37,
+    4,
+    83,
+    78,
+  ],
+}
+`;
+
+exports[`Nd%: 6d% 1`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-31",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 303,
+  "_PRIVATE_values": Array [
+    56,
+    88,
+    6,
+    59,
+    73,
+    21,
+  ],
+}
+`;
+
+exports[`Nd%: 6d% 2`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-32",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 225,
+  "_PRIVATE_values": Array [
+    31,
+    64,
+    47,
+    1,
+    20,
+    62,
+  ],
+}
+`;
+
+exports[`Nd%: 6d% 3`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-33",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 283,
+  "_PRIVATE_values": Array [
+    62,
+    22,
+    27,
+    95,
+    59,
+    18,
+  ],
+}
+`;
+
+exports[`Nd%: 6d% 4`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-34",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 322,
+  "_PRIVATE_values": Array [
+    79,
+    65,
+    56,
+    35,
+    46,
+    41,
+  ],
+}
+`;
+
+exports[`Nd%: 6d% 5`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-35",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 330,
+  "_PRIVATE_values": Array [
+    55,
+    61,
+    27,
+    56,
+    79,
+    52,
+  ],
+}
+`;
+
+exports[`Nd%: 8d% 1`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-36",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 333,
+  "_PRIVATE_values": Array [
+    2,
+    64,
+    66,
+    9,
+    84,
+    16,
+    86,
+    6,
+  ],
+}
+`;
+
+exports[`Nd%: 8d% 2`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-37",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 498,
+  "_PRIVATE_values": Array [
+    68,
+    13,
+    73,
+    92,
+    79,
+    75,
+    82,
+    16,
+  ],
+}
+`;
+
+exports[`Nd%: 8d% 3`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-38",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 491,
+  "_PRIVATE_values": Array [
+    93,
+    64,
+    23,
+    70,
+    52,
+    78,
+    83,
+    28,
+  ],
+}
+`;
+
+exports[`Nd%: 8d% 4`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-39",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 435,
+  "_PRIVATE_values": Array [
+    32,
+    8,
+    77,
+    86,
+    96,
+    45,
+    68,
+    23,
+  ],
+}
+`;
+
+exports[`Nd%: 8d% 5`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-40",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 478,
+  "_PRIVATE_values": Array [
+    14,
+    95,
+    84,
+    86,
+    55,
+    67,
+    9,
+    68,
+  ],
+}
+`;
+
+exports[`Nd%: d% 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-1",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 27,
+  "_PRIVATE_values": Array [
+    27,
+  ],
+}
+`;
+
+exports[`Nd%: d% 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-2",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`Nd%: d% 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-3",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 23,
+  "_PRIVATE_values": Array [
+    23,
+  ],
+}
+`;
+
+exports[`Nd%: d% 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-4",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 15,
+  "_PRIVATE_values": Array [
+    15,
+  ],
+}
+`;
+
+exports[`Nd%: d% 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-5",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 47,
+  "_PRIVATE_values": Array [
+    47,
+  ],
+}
+`;
+
+exports[`NdF: 1dF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-6",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 1dF 2`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-7",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 1dF 3`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-8",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 1dF 4`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-9",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 1dF 5`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-10",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 2dF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-11",
+  "_PRIVATE_value": -2,
+  "_PRIVATE_values": Array [
+    "-",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 2dF 2`] = `
+FudgeDice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-12",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "+",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 2dF 3`] = `
+FudgeDice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-13",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "+",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 2dF 4`] = `
+FudgeDice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-14",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "+",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 2dF 5`] = `
+FudgeDice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-15",
+  "_PRIVATE_value": -1,
+  "_PRIVATE_values": Array [
+    "=",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 3dF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-16",
+  "_PRIVATE_value": -1,
+  "_PRIVATE_values": Array [
+    "-",
+    "+",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 3dF 2`] = `
+FudgeDice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-17",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "-",
+    "+",
+    "+",
+  ],
+}
+`;
+
+exports[`NdF: 3dF 3`] = `
+FudgeDice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-18",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+    "=",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 3dF 4`] = `
+FudgeDice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-19",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "-",
+    "+",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 3dF 5`] = `
+FudgeDice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-20",
+  "_PRIVATE_value": -3,
+  "_PRIVATE_values": Array [
+    "-",
+    "-",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 4dF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-21",
+  "_PRIVATE_value": -3,
+  "_PRIVATE_values": Array [
+    "-",
+    "=",
+    "-",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 4dF 2`] = `
+FudgeDice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-22",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "=",
+    "+",
+    "=",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 4dF 3`] = `
+FudgeDice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-23",
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    "+",
+    "+",
+    "+",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 4dF 4`] = `
+FudgeDice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-24",
+  "_PRIVATE_value": -1,
+  "_PRIVATE_values": Array [
+    "=",
+    "=",
+    "=",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 4dF 5`] = `
+FudgeDice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-25",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+    "-",
+    "=",
+    "+",
+  ],
+}
+`;
+
+exports[`NdF: 5dF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-26",
+  "_PRIVATE_value": -3,
+  "_PRIVATE_values": Array [
+    "=",
+    "=",
+    "-",
+    "-",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 5dF 2`] = `
+FudgeDice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-27",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "-",
+    "+",
+    "=",
+    "-",
+    "+",
+  ],
+}
+`;
+
+exports[`NdF: 5dF 3`] = `
+FudgeDice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-28",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "+",
+    "=",
+    "+",
+    "-",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 5dF 4`] = `
+FudgeDice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-29",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "+",
+    "+",
+    "+",
+    "-",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 5dF 5`] = `
+FudgeDice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-30",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "=",
+    "=",
+    "-",
+    "+",
+    "+",
+  ],
+}
+`;
+
+exports[`NdF: 6dF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-31",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+    "+",
+    "-",
+    "=",
+    "+",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 6dF 2`] = `
+FudgeDice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-32",
+  "_PRIVATE_value": -3,
+  "_PRIVATE_values": Array [
+    "-",
+    "=",
+    "=",
+    "-",
+    "-",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 6dF 3`] = `
+FudgeDice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-33",
+  "_PRIVATE_value": -2,
+  "_PRIVATE_values": Array [
+    "=",
+    "-",
+    "-",
+    "+",
+    "=",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 6dF 4`] = `
+FudgeDice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-34",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "+",
+    "=",
+    "=",
+    "=",
+    "=",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 6dF 5`] = `
+FudgeDice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-35",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+    "=",
+    "-",
+    "=",
+    "+",
+    "=",
+  ],
+}
+`;
+
+exports[`NdF: 8dF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-36",
+  "_PRIVATE_value": -2,
+  "_PRIVATE_values": Array [
+    "-",
+    "=",
+    "=",
+    "-",
+    "+",
+    "-",
+    "+",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 8dF 2`] = `
+FudgeDice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-37",
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    "+",
+    "-",
+    "+",
+    "+",
+    "+",
+    "+",
+    "+",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 8dF 3`] = `
+FudgeDice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-38",
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    "+",
+    "=",
+    "-",
+    "+",
+    "=",
+    "+",
+    "+",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 8dF 4`] = `
+FudgeDice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-39",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "-",
+    "-",
+    "+",
+    "+",
+    "+",
+    "=",
+    "+",
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: 8dF 5`] = `
+FudgeDice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-40",
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    "-",
+    "+",
+    "+",
+    "+",
+    "=",
+    "=",
+    "-",
+    "+",
+  ],
+}
+`;
+
+exports[`NdF: dF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-1",
+  "_PRIVATE_value": -1,
+  "_PRIVATE_values": Array [
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: dF 2`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-2",
+  "_PRIVATE_value": -1,
+  "_PRIVATE_values": Array [
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: dF 3`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-3",
+  "_PRIVATE_value": -1,
+  "_PRIVATE_values": Array [
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: dF 4`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-4",
+  "_PRIVATE_value": -1,
+  "_PRIVATE_values": Array [
+    "-",
+  ],
+}
+`;
+
+exports[`NdF: dF 5`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-5",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+  ],
+}
+`;
+
+exports[`NdX: 1d2 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-41",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 1d2 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-42",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 1d2 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-43",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 1d2 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-44",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 1d2 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-45",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 1d4 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-46",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 1d4 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-47",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 1d4 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-48",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 1d4 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-49",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 1d4 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-50",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 1d6 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-51",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 1d6 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-52",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 1d6 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-53",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 1d6 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-54",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 1d6 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-55",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 1d8 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-56",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 1d8 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-57",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 1d8 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-58",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 1d8 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-59",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 1d8 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-60",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 1d10 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-61",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 1d10 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-62",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 1d10 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-63",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 1d10 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-64",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 1d10 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-65",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    10,
+  ],
+}
+`;
+
+exports[`NdX: 1d12 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-66",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    11,
+  ],
+}
+`;
+
+exports[`NdX: 1d12 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-67",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 1d12 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-68",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    11,
+  ],
+}
+`;
+
+exports[`NdX: 1d12 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-69",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 1d12 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-70",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 1d20 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-71",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 15,
+  "_PRIVATE_values": Array [
+    15,
+  ],
+}
+`;
+
+exports[`NdX: 1d20 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-72",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 17,
+  "_PRIVATE_values": Array [
+    17,
+  ],
+}
+`;
+
+exports[`NdX: 1d20 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-73",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 16,
+  "_PRIVATE_values": Array [
+    16,
+  ],
+}
+`;
+
+exports[`NdX: 1d20 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-74",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 1d20 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-75",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 1d100 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-76",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 45,
+  "_PRIVATE_values": Array [
+    45,
+  ],
+}
+`;
+
+exports[`NdX: 1d100 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-77",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 37,
+  "_PRIVATE_values": Array [
+    37,
+  ],
+}
+`;
+
+exports[`NdX: 1d100 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-78",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 1d100 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-79",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 83,
+  "_PRIVATE_values": Array [
+    83,
+  ],
+}
+`;
+
+exports[`NdX: 1d100 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-80",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 78,
+  "_PRIVATE_values": Array [
+    78,
+  ],
+}
+`;
+
+exports[`NdX: 2d2 1`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-81",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 2d2 2`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-82",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 2d2 3`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-83",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 2d2 4`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-84",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 2d2 5`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-85",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 2d4 1`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-86",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    1,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 2d4 2`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-87",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    3,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 2d4 3`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-88",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    2,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 2d4 4`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-89",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    3,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 2d4 5`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-90",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    4,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 2d6 1`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-91",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    4,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 2d6 2`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-92",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    3,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 2d6 3`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-93",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    4,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 2d6 4`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-94",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    2,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 2d6 5`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-95",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 9,
+  "_PRIVATE_values": Array [
+    5,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 2d8 1`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-96",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    1,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 2d8 2`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-97",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    6,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 2d8 3`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-98",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 9,
+  "_PRIVATE_values": Array [
+    7,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 2d8 4`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-99",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    7,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 2d8 5`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-100",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    6,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 2d10 1`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-101",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 18,
+  "_PRIVATE_values": Array [
+    8,
+    10,
+  ],
+}
+`;
+
+exports[`NdX: 2d10 2`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-102",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 16,
+  "_PRIVATE_values": Array [
+    8,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 2d10 3`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-103",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    9,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 2d10 4`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-104",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 17,
+  "_PRIVATE_values": Array [
+    10,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 2d10 5`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-105",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    3,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 2d12 1`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-106",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 17,
+  "_PRIVATE_values": Array [
+    7,
+    10,
+  ],
+}
+`;
+
+exports[`NdX: 2d12 2`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-107",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 14,
+  "_PRIVATE_values": Array [
+    10,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 2d12 3`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-108",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    4,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 2d12 4`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-109",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 21,
+  "_PRIVATE_values": Array [
+    10,
+    11,
+  ],
+}
+`;
+
+exports[`NdX: 2d12 5`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-110",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 18,
+  "_PRIVATE_values": Array [
+    12,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 2d20 1`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-111",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    14,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 2d20 2`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-112",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 22,
+  "_PRIVATE_values": Array [
+    3,
+    19,
+  ],
+}
+`;
+
+exports[`NdX: 2d20 3`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-113",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 35,
+  "_PRIVATE_values": Array [
+    17,
+    18,
+  ],
+}
+`;
+
+exports[`NdX: 2d20 4`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-114",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 25,
+  "_PRIVATE_values": Array [
+    11,
+    14,
+  ],
+}
+`;
+
+exports[`NdX: 2d20 5`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-115",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 16,
+  "_PRIVATE_values": Array [
+    2,
+    14,
+  ],
+}
+`;
+
+exports[`NdX: 2d100 1`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-116",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 24,
+  "_PRIVATE_values": Array [
+    6,
+    18,
+  ],
+}
+`;
+
+exports[`NdX: 2d100 2`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-117",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 102,
+  "_PRIVATE_values": Array [
+    23,
+    79,
+  ],
+}
+`;
+
+exports[`NdX: 2d100 3`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-118",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 29,
+  "_PRIVATE_values": Array [
+    20,
+    9,
+  ],
+}
+`;
+
+exports[`NdX: 2d100 4`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-119",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 41,
+  "_PRIVATE_values": Array [
+    34,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 2d100 5`] = `
+Dice {
+  "_PRIVATE_count": 2,
+  "_PRIVATE_id": "MOCK-120",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 176,
+  "_PRIVATE_values": Array [
+    84,
+    92,
+  ],
+}
+`;
+
+exports[`NdX: 3d2 1`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-121",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 3d2 2`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-122",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 3d2 3`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-123",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 3d2 4`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-124",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 3d2 5`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-125",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 3d4 1`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-126",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    2,
+    3,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 3d4 2`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-127",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    2,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 3d4 3`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-128",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    4,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 3d4 4`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-129",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 3d4 5`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-130",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 3d6 1`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-131",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    1,
+    6,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 3d6 2`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-132",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 9,
+  "_PRIVATE_values": Array [
+    4,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 3d6 3`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-133",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    3,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 3d6 4`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-134",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 12,
+  "_PRIVATE_values": Array [
+    2,
+    4,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 3d6 5`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-135",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 9,
+  "_PRIVATE_values": Array [
+    2,
+    1,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 3d8 1`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-136",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 15,
+  "_PRIVATE_values": Array [
+    2,
+    8,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 3d8 2`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-137",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    3,
+    3,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 3d8 3`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-138",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 15,
+  "_PRIVATE_values": Array [
+    5,
+    8,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 3d8 4`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-139",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 18,
+  "_PRIVATE_values": Array [
+    4,
+    6,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 3d8 5`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-140",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    4,
+    5,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 3d10 1`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-141",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    5,
+    5,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 3d10 2`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-142",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    4,
+    4,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 3d10 3`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-143",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    3,
+    2,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 3d10 4`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-144",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    9,
+    5,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 3d10 5`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-145",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 15,
+  "_PRIVATE_values": Array [
+    6,
+    7,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 3d12 1`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-146",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 21,
+  "_PRIVATE_values": Array [
+    9,
+    6,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 3d12 2`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-147",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 15,
+  "_PRIVATE_values": Array [
+    4,
+    3,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 3d12 3`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-148",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 23,
+  "_PRIVATE_values": Array [
+    11,
+    6,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 3d12 4`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-149",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    2,
+    5,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 3d12 5`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-150",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 29,
+  "_PRIVATE_values": Array [
+    9,
+    10,
+    10,
+  ],
+}
+`;
+
+exports[`NdX: 3d20 1`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-151",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 28,
+  "_PRIVATE_values": Array [
+    17,
+    3,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 3d20 2`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-152",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 26,
+  "_PRIVATE_values": Array [
+    9,
+    10,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 3d20 3`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-153",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 49,
+  "_PRIVATE_values": Array [
+    19,
+    14,
+    16,
+  ],
+}
+`;
+
+exports[`NdX: 3d20 4`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-154",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 43,
+  "_PRIVATE_values": Array [
+    11,
+    20,
+    12,
+  ],
+}
+`;
+
+exports[`NdX: 3d20 5`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-155",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 28,
+  "_PRIVATE_values": Array [
+    12,
+    12,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 3d100 1`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-156",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 188,
+  "_PRIVATE_values": Array [
+    32,
+    65,
+    91,
+  ],
+}
+`;
+
+exports[`NdX: 3d100 2`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-157",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 206,
+  "_PRIVATE_values": Array [
+    41,
+    88,
+    77,
+  ],
+}
+`;
+
+exports[`NdX: 3d100 3`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-158",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 163,
+  "_PRIVATE_values": Array [
+    50,
+    97,
+    16,
+  ],
+}
+`;
+
+exports[`NdX: 3d100 4`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-159",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 154,
+  "_PRIVATE_values": Array [
+    30,
+    62,
+    62,
+  ],
+}
+`;
+
+exports[`NdX: 3d100 5`] = `
+Dice {
+  "_PRIVATE_count": 3,
+  "_PRIVATE_id": "MOCK-160",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 99,
+  "_PRIVATE_values": Array [
+    25,
+    47,
+    27,
+  ],
+}
+`;
+
+exports[`NdX: 4d2 1`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-161",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d2 2`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-162",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 4d2 3`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-163",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d2 4`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-164",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 4d2 5`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-165",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d4 1`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-166",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    3,
+    2,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 4d4 2`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-167",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 12,
+  "_PRIVATE_values": Array [
+    4,
+    4,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d4 3`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-168",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+    4,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 4d4 4`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-169",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 12,
+  "_PRIVATE_values": Array [
+    3,
+    4,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 4d4 5`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-170",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+    3,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 4d6 1`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-171",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    5,
+    5,
+    5,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 4d6 2`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-172",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 14,
+  "_PRIVATE_values": Array [
+    6,
+    1,
+    2,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 4d6 3`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-173",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 17,
+  "_PRIVATE_values": Array [
+    5,
+    5,
+    4,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 4d6 4`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-174",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    1,
+    4,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 4d6 5`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-175",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 14,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+    6,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 4d8 1`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-176",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 18,
+  "_PRIVATE_values": Array [
+    3,
+    3,
+    8,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 4d8 2`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-177",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 23,
+  "_PRIVATE_values": Array [
+    3,
+    6,
+    8,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 4d8 3`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-178",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 13,
+  "_PRIVATE_values": Array [
+    4,
+    6,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d8 4`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-179",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 9,
+  "_PRIVATE_values": Array [
+    4,
+    1,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d8 5`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-180",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 17,
+  "_PRIVATE_values": Array [
+    2,
+    3,
+    4,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 4d10 1`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-181",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 17,
+  "_PRIVATE_values": Array [
+    2,
+    7,
+    6,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d10 2`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-182",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 25,
+  "_PRIVATE_values": Array [
+    10,
+    10,
+    3,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d10 3`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-183",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    8,
+    5,
+    4,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d10 4`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-184",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 20,
+  "_PRIVATE_values": Array [
+    7,
+    3,
+    6,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 4d10 5`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-185",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 32,
+  "_PRIVATE_values": Array [
+    4,
+    8,
+    10,
+    10,
+  ],
+}
+`;
+
+exports[`NdX: 4d12 1`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-186",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 21,
+  "_PRIVATE_values": Array [
+    11,
+    2,
+    4,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 4d12 2`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-187",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 25,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+    10,
+    12,
+  ],
+}
+`;
+
+exports[`NdX: 4d12 3`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-188",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 30,
+  "_PRIVATE_values": Array [
+    10,
+    11,
+    6,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 4d12 4`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-189",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    4,
+    3,
+    8,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 4d12 5`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-190",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 20,
+  "_PRIVATE_values": Array [
+    8,
+    3,
+    1,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 4d20 1`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-191",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 40,
+  "_PRIVATE_values": Array [
+    4,
+    2,
+    17,
+    17,
+  ],
+}
+`;
+
+exports[`NdX: 4d20 2`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-192",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 38,
+  "_PRIVATE_values": Array [
+    20,
+    4,
+    11,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 4d20 3`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-193",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 59,
+  "_PRIVATE_values": Array [
+    11,
+    20,
+    14,
+    14,
+  ],
+}
+`;
+
+exports[`NdX: 4d20 4`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-194",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 37,
+  "_PRIVATE_values": Array [
+    8,
+    13,
+    10,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 4d20 5`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-195",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 16,
+  "_PRIVATE_values": Array [
+    11,
+    2,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 4d100 1`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-196",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 216,
+  "_PRIVATE_values": Array [
+    82,
+    36,
+    55,
+    43,
+  ],
+}
+`;
+
+exports[`NdX: 4d100 2`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-197",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 141,
+  "_PRIVATE_values": Array [
+    31,
+    2,
+    56,
+    52,
+  ],
+}
+`;
+
+exports[`NdX: 4d100 3`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-198",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 223,
+  "_PRIVATE_values": Array [
+    23,
+    94,
+    33,
+    73,
+  ],
+}
+`;
+
+exports[`NdX: 4d100 4`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-199",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 98,
+  "_PRIVATE_values": Array [
+    5,
+    9,
+    1,
+    83,
+  ],
+}
+`;
+
+exports[`NdX: 4d100 5`] = `
+Dice {
+  "_PRIVATE_count": 4,
+  "_PRIVATE_id": "MOCK-200",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 342,
+  "_PRIVATE_values": Array [
+    66,
+    99,
+    88,
+    89,
+  ],
+}
+`;
+
+exports[`NdX: 5d2 1`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-201",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    2,
+    1,
+    2,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 5d2 2`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-202",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+    2,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 5d2 3`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-203",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+    2,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 5d2 4`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-204",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    2,
+    1,
+    1,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 5d2 5`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-205",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+    2,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 5d4 1`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-206",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 9,
+  "_PRIVATE_values": Array [
+    2,
+    1,
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 5d4 2`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-207",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 13,
+  "_PRIVATE_values": Array [
+    1,
+    4,
+    2,
+    2,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 5d4 3`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-208",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 12,
+  "_PRIVATE_values": Array [
+    4,
+    1,
+    2,
+    1,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 5d4 4`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-209",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 12,
+  "_PRIVATE_values": Array [
+    3,
+    1,
+    3,
+    1,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 5d4 5`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-210",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 13,
+  "_PRIVATE_values": Array [
+    3,
+    3,
+    3,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 5d6 1`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-211",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 18,
+  "_PRIVATE_values": Array [
+    1,
+    6,
+    2,
+    6,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 5d6 2`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-212",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 20,
+  "_PRIVATE_values": Array [
+    4,
+    1,
+    4,
+    6,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 5d6 3`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-213",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 14,
+  "_PRIVATE_values": Array [
+    6,
+    4,
+    2,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 5d6 4`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-214",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 21,
+  "_PRIVATE_values": Array [
+    4,
+    4,
+    2,
+    5,
+    6,
+  ],
+}
+`;
+
+exports[`NdX: 5d6 5`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-215",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 14,
+  "_PRIVATE_values": Array [
+    1,
+    4,
+    2,
+    4,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 5d8 1`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-216",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 21,
+  "_PRIVATE_values": Array [
+    1,
+    8,
+    3,
+    2,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 5d8 2`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-217",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 34,
+  "_PRIVATE_values": Array [
+    8,
+    7,
+    7,
+    4,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 5d8 3`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-218",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 15,
+  "_PRIVATE_values": Array [
+    7,
+    2,
+    2,
+    3,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 5d8 4`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-219",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 15,
+  "_PRIVATE_values": Array [
+    6,
+    2,
+    1,
+    4,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 5d8 5`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-220",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    1,
+    7,
+    4,
+    5,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 5d10 1`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-221",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 32,
+  "_PRIVATE_values": Array [
+    2,
+    8,
+    9,
+    10,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 5d10 2`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-222",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 36,
+  "_PRIVATE_values": Array [
+    5,
+    8,
+    5,
+    10,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 5d10 3`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-223",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 23,
+  "_PRIVATE_values": Array [
+    3,
+    3,
+    9,
+    5,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 5d10 4`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-224",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 28,
+  "_PRIVATE_values": Array [
+    9,
+    9,
+    4,
+    5,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 5d10 5`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-225",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 24,
+  "_PRIVATE_values": Array [
+    5,
+    6,
+    5,
+    6,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 5d12 1`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-226",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 30,
+  "_PRIVATE_values": Array [
+    1,
+    8,
+    4,
+    6,
+    11,
+  ],
+}
+`;
+
+exports[`NdX: 5d12 2`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-227",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 39,
+  "_PRIVATE_values": Array [
+    12,
+    3,
+    12,
+    7,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 5d12 3`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-228",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 31,
+  "_PRIVATE_values": Array [
+    6,
+    5,
+    11,
+    1,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 5d12 4`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-229",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 35,
+  "_PRIVATE_values": Array [
+    11,
+    2,
+    10,
+    9,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 5d12 5`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-230",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 28,
+  "_PRIVATE_values": Array [
+    2,
+    11,
+    8,
+    5,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 5d20 1`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-231",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 55,
+  "_PRIVATE_values": Array [
+    2,
+    17,
+    16,
+    15,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 5d20 2`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-232",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 54,
+  "_PRIVATE_values": Array [
+    10,
+    18,
+    1,
+    16,
+    9,
+  ],
+}
+`;
+
+exports[`NdX: 5d20 3`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-233",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 74,
+  "_PRIVATE_values": Array [
+    14,
+    16,
+    13,
+    20,
+    11,
+  ],
+}
+`;
+
+exports[`NdX: 5d20 4`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-234",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 49,
+  "_PRIVATE_values": Array [
+    19,
+    9,
+    3,
+    9,
+    9,
+  ],
+}
+`;
+
+exports[`NdX: 5d20 5`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-235",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 54,
+  "_PRIVATE_values": Array [
+    4,
+    10,
+    8,
+    15,
+    17,
+  ],
+}
+`;
+
+exports[`NdX: 5d100 1`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-236",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 164,
+  "_PRIVATE_values": Array [
+    9,
+    40,
+    25,
+    3,
+    87,
+  ],
+}
+`;
+
+exports[`NdX: 5d100 2`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-237",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 140,
+  "_PRIVATE_values": Array [
+    3,
+    46,
+    1,
+    85,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 5d100 3`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-238",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 326,
+  "_PRIVATE_values": Array [
+    61,
+    22,
+    54,
+    98,
+    91,
+  ],
+}
+`;
+
+exports[`NdX: 5d100 4`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-239",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 312,
+  "_PRIVATE_values": Array [
+    4,
+    70,
+    88,
+    56,
+    94,
+  ],
+}
+`;
+
+exports[`NdX: 5d100 5`] = `
+Dice {
+  "_PRIVATE_count": 5,
+  "_PRIVATE_id": "MOCK-240",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 288,
+  "_PRIVATE_values": Array [
+    99,
+    89,
+    2,
+    82,
+    16,
+  ],
+}
+`;
+
+exports[`NdX: 6d2 1`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-241",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 6d2 2`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-242",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 9,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    1,
+    1,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 6d2 3`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-243",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 6d2 4`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-244",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 6d2 5`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-245",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 6d4 1`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-246",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 17,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    3,
+    4,
+    2,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 6d4 2`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-247",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 23,
+  "_PRIVATE_values": Array [
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 6d4 3`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-248",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    1,
+    3,
+    2,
+    1,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 6d4 4`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-249",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 12,
+  "_PRIVATE_values": Array [
+    1,
+    3,
+    3,
+    1,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 6d4 5`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-250",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 13,
+  "_PRIVATE_values": Array [
+    2,
+    1,
+    4,
+    2,
+    2,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 6d6 1`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-251",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 25,
+  "_PRIVATE_values": Array [
+    6,
+    5,
+    3,
+    4,
+    2,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 6d6 2`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-252",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 20,
+  "_PRIVATE_values": Array [
+    2,
+    3,
+    4,
+    4,
+    2,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 6d6 3`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-253",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 25,
+  "_PRIVATE_values": Array [
+    5,
+    6,
+    5,
+    6,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 6d6 4`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-254",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 25,
+  "_PRIVATE_values": Array [
+    4,
+    4,
+    2,
+    6,
+    5,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 6d6 5`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-255",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    6,
+    2,
+    1,
+    3,
+    3,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 6d8 1`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-256",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 21,
+  "_PRIVATE_values": Array [
+    6,
+    2,
+    5,
+    1,
+    5,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 6d8 2`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-257",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 20,
+  "_PRIVATE_values": Array [
+    4,
+    3,
+    2,
+    3,
+    3,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 6d8 3`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-258",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 37,
+  "_PRIVATE_values": Array [
+    7,
+    5,
+    6,
+    8,
+    4,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 6d8 4`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-259",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 30,
+  "_PRIVATE_values": Array [
+    8,
+    1,
+    4,
+    3,
+    6,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 6d8 5`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-260",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 26,
+  "_PRIVATE_values": Array [
+    5,
+    8,
+    2,
+    3,
+    4,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 6d10 1`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-261",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 29,
+  "_PRIVATE_values": Array [
+    10,
+    2,
+    7,
+    4,
+    3,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 6d10 2`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-262",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 42,
+  "_PRIVATE_values": Array [
+    7,
+    4,
+    10,
+    8,
+    6,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 6d10 3`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-263",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 36,
+  "_PRIVATE_values": Array [
+    9,
+    10,
+    5,
+    2,
+    5,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 6d10 4`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-264",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 30,
+  "_PRIVATE_values": Array [
+    2,
+    8,
+    5,
+    1,
+    5,
+    9,
+  ],
+}
+`;
+
+exports[`NdX: 6d10 5`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-265",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 32,
+  "_PRIVATE_values": Array [
+    4,
+    10,
+    4,
+    10,
+    1,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 6d12 1`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-266",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 29,
+  "_PRIVATE_values": Array [
+    7,
+    5,
+    3,
+    8,
+    1,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 6d12 2`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-267",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 40,
+  "_PRIVATE_values": Array [
+    3,
+    6,
+    1,
+    6,
+    12,
+    12,
+  ],
+}
+`;
+
+exports[`NdX: 6d12 3`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-268",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 46,
+  "_PRIVATE_values": Array [
+    8,
+    6,
+    9,
+    9,
+    6,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 6d12 4`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-269",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 43,
+  "_PRIVATE_values": Array [
+    10,
+    11,
+    2,
+    1,
+    12,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 6d12 5`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-270",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 51,
+  "_PRIVATE_values": Array [
+    7,
+    10,
+    7,
+    6,
+    11,
+    10,
+  ],
+}
+`;
+
+exports[`NdX: 6d20 1`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-271",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 90,
+  "_PRIVATE_values": Array [
+    20,
+    15,
+    20,
+    12,
+    13,
+    10,
+  ],
+}
+`;
+
+exports[`NdX: 6d20 2`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-272",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 87,
+  "_PRIVATE_values": Array [
+    6,
+    20,
+    18,
+    18,
+    15,
+    10,
+  ],
+}
+`;
+
+exports[`NdX: 6d20 3`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-273",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 46,
+  "_PRIVATE_values": Array [
+    13,
+    3,
+    8,
+    1,
+    8,
+    13,
+  ],
+}
+`;
+
+exports[`NdX: 6d20 4`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-274",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 65,
+  "_PRIVATE_values": Array [
+    10,
+    2,
+    19,
+    17,
+    14,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 6d20 5`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-275",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 64,
+  "_PRIVATE_values": Array [
+    13,
+    14,
+    12,
+    5,
+    15,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 6d100 1`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-276",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 368,
+  "_PRIVATE_values": Array [
+    48,
+    47,
+    49,
+    81,
+    51,
+    92,
+  ],
+}
+`;
+
+exports[`NdX: 6d100 2`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-277",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 275,
+  "_PRIVATE_values": Array [
+    73,
+    26,
+    31,
+    10,
+    93,
+    42,
+  ],
+}
+`;
+
+exports[`NdX: 6d100 3`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-278",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 159,
+  "_PRIVATE_values": Array [
+    13,
+    29,
+    15,
+    19,
+    2,
+    81,
+  ],
+}
+`;
+
+exports[`NdX: 6d100 4`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-279",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 378,
+  "_PRIVATE_values": Array [
+    91,
+    53,
+    43,
+    57,
+    36,
+    98,
+  ],
+}
+`;
+
+exports[`NdX: 6d100 5`] = `
+Dice {
+  "_PRIVATE_count": 6,
+  "_PRIVATE_id": "MOCK-280",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 290,
+  "_PRIVATE_values": Array [
+    9,
+    76,
+    50,
+    9,
+    62,
+    84,
+  ],
+}
+`;
+
+exports[`NdX: 8d2 1`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-281",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 12,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 8d2 2`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-282",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 8d2 3`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-283",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 8d2 4`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-284",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 8d2 5`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-285",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 8d4 1`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-286",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    1,
+    3,
+    2,
+    4,
+    2,
+    2,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 8d4 2`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-287",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 18,
+  "_PRIVATE_values": Array [
+    3,
+    4,
+    2,
+    2,
+    1,
+    2,
+    1,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 8d4 3`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-288",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 21,
+  "_PRIVATE_values": Array [
+    1,
+    3,
+    4,
+    1,
+    4,
+    1,
+    4,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 8d4 4`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-289",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 24,
+  "_PRIVATE_values": Array [
+    4,
+    2,
+    3,
+    4,
+    1,
+    3,
+    4,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 8d4 5`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-290",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    3,
+    4,
+    1,
+    4,
+    3,
+    2,
+    1,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 8d6 1`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-291",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 34,
+  "_PRIVATE_values": Array [
+    5,
+    6,
+    4,
+    5,
+    2,
+    6,
+    3,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 8d6 2`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-292",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 36,
+  "_PRIVATE_values": Array [
+    5,
+    3,
+    4,
+    4,
+    6,
+    6,
+    4,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 8d6 3`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-293",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 29,
+  "_PRIVATE_values": Array [
+    4,
+    4,
+    3,
+    6,
+    5,
+    3,
+    1,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 8d6 4`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-294",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 32,
+  "_PRIVATE_values": Array [
+    4,
+    6,
+    4,
+    6,
+    4,
+    4,
+    1,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 8d6 5`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-295",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 30,
+  "_PRIVATE_values": Array [
+    2,
+    6,
+    5,
+    5,
+    6,
+    1,
+    3,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 8d8 1`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-296",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 29,
+  "_PRIVATE_values": Array [
+    6,
+    3,
+    4,
+    5,
+    3,
+    3,
+    4,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 8d8 2`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-297",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 35,
+  "_PRIVATE_values": Array [
+    7,
+    4,
+    4,
+    1,
+    7,
+    4,
+    4,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 8d8 3`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-298",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 39,
+  "_PRIVATE_values": Array [
+    7,
+    6,
+    3,
+    6,
+    2,
+    7,
+    1,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 8d8 4`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-299",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 43,
+  "_PRIVATE_values": Array [
+    7,
+    6,
+    6,
+    2,
+    4,
+    8,
+    5,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 8d8 5`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-300",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 27,
+  "_PRIVATE_values": Array [
+    1,
+    1,
+    1,
+    2,
+    6,
+    6,
+    6,
+    4,
+  ],
+}
+`;
+
+exports[`NdX: 8d10 1`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-301",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 51,
+  "_PRIVATE_values": Array [
+    2,
+    10,
+    10,
+    4,
+    9,
+    7,
+    8,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 8d10 2`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-302",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 44,
+  "_PRIVATE_values": Array [
+    4,
+    8,
+    10,
+    10,
+    6,
+    1,
+    4,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 8d10 3`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-303",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 37,
+  "_PRIVATE_values": Array [
+    5,
+    7,
+    2,
+    2,
+    4,
+    7,
+    3,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 8d10 4`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-304",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 32,
+  "_PRIVATE_values": Array [
+    2,
+    8,
+    5,
+    2,
+    1,
+    1,
+    6,
+    7,
+  ],
+}
+`;
+
+exports[`NdX: 8d10 5`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-305",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 47,
+  "_PRIVATE_values": Array [
+    10,
+    9,
+    5,
+    4,
+    1,
+    4,
+    6,
+    8,
+  ],
+}
+`;
+
+exports[`NdX: 8d12 1`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-306",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 45,
+  "_PRIVATE_values": Array [
+    12,
+    9,
+    2,
+    4,
+    8,
+    3,
+    6,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 8d12 2`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-307",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 56,
+  "_PRIVATE_values": Array [
+    9,
+    4,
+    11,
+    7,
+    5,
+    8,
+    10,
+    2,
+  ],
+}
+`;
+
+exports[`NdX: 8d12 3`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-308",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 45,
+  "_PRIVATE_values": Array [
+    8,
+    6,
+    3,
+    1,
+    10,
+    11,
+    5,
+    1,
+  ],
+}
+`;
+
+exports[`NdX: 8d12 4`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-309",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 65,
+  "_PRIVATE_values": Array [
+    6,
+    12,
+    9,
+    6,
+    11,
+    7,
+    2,
+    12,
+  ],
+}
+`;
+
+exports[`NdX: 8d12 5`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-310",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 55,
+  "_PRIVATE_values": Array [
+    6,
+    11,
+    2,
+    12,
+    7,
+    9,
+    3,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 8d20 1`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-311",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 71,
+  "_PRIVATE_values": Array [
+    1,
+    16,
+    7,
+    18,
+    13,
+    10,
+    3,
+    3,
+  ],
+}
+`;
+
+exports[`NdX: 8d20 2`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-312",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 81,
+  "_PRIVATE_values": Array [
+    12,
+    2,
+    10,
+    7,
+    14,
+    19,
+    1,
+    16,
+  ],
+}
+`;
+
+exports[`NdX: 8d20 3`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-313",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 102,
+  "_PRIVATE_values": Array [
+    7,
+    19,
+    8,
+    17,
+    18,
+    18,
+    1,
+    14,
+  ],
+}
+`;
+
+exports[`NdX: 8d20 4`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-314",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 114,
+  "_PRIVATE_values": Array [
+    14,
+    9,
+    13,
+    15,
+    20,
+    16,
+    13,
+    14,
+  ],
+}
+`;
+
+exports[`NdX: 8d20 5`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-315",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 97,
+  "_PRIVATE_values": Array [
+    20,
+    17,
+    11,
+    2,
+    20,
+    16,
+    6,
+    5,
+  ],
+}
+`;
+
+exports[`NdX: 8d100 1`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-316",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 470,
+  "_PRIVATE_values": Array [
+    80,
+    93,
+    39,
+    16,
+    92,
+    61,
+    9,
+    80,
+  ],
+}
+`;
+
+exports[`NdX: 8d100 2`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-317",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 304,
+  "_PRIVATE_values": Array [
+    58,
+    29,
+    97,
+    32,
+    4,
+    1,
+    38,
+    45,
+  ],
+}
+`;
+
+exports[`NdX: 8d100 3`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-318",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 289,
+  "_PRIVATE_values": Array [
+    20,
+    10,
+    51,
+    4,
+    78,
+    63,
+    16,
+    47,
+  ],
+}
+`;
+
+exports[`NdX: 8d100 4`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-319",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 576,
+  "_PRIVATE_values": Array [
+    27,
+    99,
+    44,
+    85,
+    90,
+    53,
+    100,
+    78,
+  ],
+}
+`;
+
+exports[`NdX: 8d100 5`] = `
+Dice {
+  "_PRIVATE_count": 8,
+  "_PRIVATE_id": "MOCK-320",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 392,
+  "_PRIVATE_values": Array [
+    51,
+    1,
+    71,
+    84,
+    10,
+    44,
+    83,
+    48,
+  ],
+}
+`;
+
+exports[`NdX: d2 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-1",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: d2 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-2",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: d2 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-3",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: d2 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-4",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: d2 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-5",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 2,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: d4 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-6",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: d4 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-7",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: d4 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-8",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: d4 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-9",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: d4 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-10",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 4,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: d6 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-11",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: d6 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-12",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: d6 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-13",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    6,
+  ],
+}
+`;
+
+exports[`NdX: d6 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-14",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: d6 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-15",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 6,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    5,
+  ],
+}
+`;
+
+exports[`NdX: d8 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-16",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    6,
+  ],
+}
+`;
+
+exports[`NdX: d8 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-17",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    7,
+  ],
+}
+`;
+
+exports[`NdX: d8 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-18",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    6,
+  ],
+}
+`;
+
+exports[`NdX: d8 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-19",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    5,
+  ],
+}
+`;
+
+exports[`NdX: d8 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-20",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 8,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: d10 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-21",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: d10 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-22",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 9,
+  "_PRIVATE_values": Array [
+    9,
+  ],
+}
+`;
+
+exports[`NdX: d10 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-23",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 4,
+  "_PRIVATE_values": Array [
+    4,
+  ],
+}
+`;
+
+exports[`NdX: d10 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-24",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`NdX: d10 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-25",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 10,
+  "_PRIVATE_value": 8,
+  "_PRIVATE_values": Array [
+    8,
+  ],
+}
+`;
+
+exports[`NdX: d12 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-26",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    11,
+  ],
+}
+`;
+
+exports[`NdX: d12 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-27",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    7,
+  ],
+}
+`;
+
+exports[`NdX: d12 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-28",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    6,
+  ],
+}
+`;
+
+exports[`NdX: d12 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-29",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    5,
+  ],
+}
+`;
+
+exports[`NdX: d12 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-30",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 12,
+  "_PRIVATE_value": 2,
+  "_PRIVATE_values": Array [
+    2,
+  ],
+}
+`;
+
+exports[`NdX: d20 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-31",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 16,
+  "_PRIVATE_values": Array [
+    16,
+  ],
+}
+`;
+
+exports[`NdX: d20 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-32",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 11,
+  "_PRIVATE_values": Array [
+    11,
+  ],
+}
+`;
+
+exports[`NdX: d20 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-33",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 5,
+  "_PRIVATE_values": Array [
+    5,
+  ],
+}
+`;
+
+exports[`NdX: d20 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-34",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 3,
+  "_PRIVATE_values": Array [
+    3,
+  ],
+}
+`;
+
+exports[`NdX: d20 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-35",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    7,
+  ],
+}
+`;
+
+exports[`NdX: d100 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-36",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 26,
+  "_PRIVATE_values": Array [
+    26,
+  ],
+}
+`;
+
+exports[`NdX: d100 2`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-37",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 35,
+  "_PRIVATE_values": Array [
+    35,
+  ],
+}
+`;
+
+exports[`NdX: d100 3`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-38",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 27,
+  "_PRIVATE_values": Array [
+    27,
+  ],
+}
+`;
+
+exports[`NdX: d100 4`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-39",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 18,
+  "_PRIVATE_values": Array [
+    18,
+  ],
+}
+`;
+
+exports[`NdX: d100 5`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-40",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 100,
+  "_PRIVATE_value": 34,
+  "_PRIVATE_values": Array [
+    34,
+  ],
+}
+`;
+
+exports[`case sensitivity: 1D20 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-2",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    1,
+  ],
+}
+`;
+
+exports[`case sensitivity: 1DF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-42",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+  ],
+}
+`;
+
+exports[`case sensitivity: 1Df 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-41",
+  "_PRIVATE_value": 1,
+  "_PRIVATE_values": Array [
+    "+",
+  ],
+}
+`;
+
+exports[`case sensitivity: 1d20 1`] = `
+Dice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-1",
+  "_PRIVATE_rng": RNGMulberry32 {
+    "_PRIVATE_next": [Function],
+  },
+  "_PRIVATE_sides": 20,
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    6,
+  ],
+}
+`;
+
+exports[`case sensitivity: 1dF 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-40",
+  "_PRIVATE_value": 0,
+  "_PRIVATE_values": Array [
+    "=",
+  ],
+}
+`;
+
+exports[`case sensitivity: 1df 1`] = `
+FudgeDice {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_id": "MOCK-39",
+  "_PRIVATE_value": -1,
+  "_PRIVATE_values": Array [
+    "-",
+  ],
+}
+`;
+
+exports[`case sensitivity: 2D20DH1 1`] = `
+KeepLowest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-37",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 13,
+    "_PRIVATE_values": Array [
+      7,
+      6,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    7,
+  ],
+  "_PRIVATE_id": "MOCK-38",
+  "_PRIVATE_kept": Array [
+    6,
+  ],
+  "_PRIVATE_value": 6,
+}
+`;
+
+exports[`case sensitivity: 2D20DL1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-29",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 10,
+    "_PRIVATE_values": Array [
+      8,
+      2,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    2,
+  ],
+  "_PRIVATE_id": "MOCK-30",
+  "_PRIVATE_kept": Array [
+    8,
+  ],
+  "_PRIVATE_value": 8,
+}
+`;
+
+exports[`case sensitivity: 2D20K1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-21",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 22,
+    "_PRIVATE_values": Array [
+      5,
+      17,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    5,
+  ],
+  "_PRIVATE_id": "MOCK-22",
+  "_PRIVATE_kept": Array [
+    17,
+  ],
+  "_PRIVATE_value": 17,
+}
+`;
+
+exports[`case sensitivity: 2D20KH1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-17",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 30,
+    "_PRIVATE_values": Array [
+      17,
+      13,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    13,
+  ],
+  "_PRIVATE_id": "MOCK-18",
+  "_PRIVATE_kept": Array [
+    17,
+  ],
+  "_PRIVATE_value": 17,
+}
+`;
+
+exports[`case sensitivity: 2D20KL1 1`] = `
+KeepLowest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-9",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 22,
+    "_PRIVATE_values": Array [
+      10,
+      12,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    12,
+  ],
+  "_PRIVATE_id": "MOCK-10",
+  "_PRIVATE_kept": Array [
+    10,
+  ],
+  "_PRIVATE_value": 10,
+}
+`;
+
+exports[`case sensitivity: 2d20Dh1 1`] = `
+KeepLowest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-35",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 13,
+    "_PRIVATE_values": Array [
+      7,
+      6,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    7,
+  ],
+  "_PRIVATE_id": "MOCK-36",
+  "_PRIVATE_kept": Array [
+    6,
+  ],
+  "_PRIVATE_value": 6,
+}
+`;
+
+exports[`case sensitivity: 2d20Dl1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-27",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 22,
+    "_PRIVATE_values": Array [
+      12,
+      10,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    10,
+  ],
+  "_PRIVATE_id": "MOCK-28",
+  "_PRIVATE_kept": Array [
+    12,
+  ],
+  "_PRIVATE_value": 12,
+}
+`;
+
+exports[`case sensitivity: 2d20Kh1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-15",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 29,
+    "_PRIVATE_values": Array [
+      15,
+      14,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    14,
+  ],
+  "_PRIVATE_id": "MOCK-16",
+  "_PRIVATE_kept": Array [
+    15,
+  ],
+  "_PRIVATE_value": 15,
+}
+`;
+
+exports[`case sensitivity: 2d20Kl1 1`] = `
+KeepLowest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-7",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 26,
+    "_PRIVATE_values": Array [
+      13,
+      13,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    13,
+  ],
+  "_PRIVATE_id": "MOCK-8",
+  "_PRIVATE_kept": Array [
+    13,
+  ],
+  "_PRIVATE_value": 13,
+}
+`;
+
+exports[`case sensitivity: 2d20dH1 1`] = `
+KeepLowest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-33",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 8,
+    "_PRIVATE_values": Array [
+      5,
+      3,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    5,
+  ],
+  "_PRIVATE_id": "MOCK-34",
+  "_PRIVATE_kept": Array [
+    3,
+  ],
+  "_PRIVATE_value": 3,
+}
+`;
+
+exports[`case sensitivity: 2d20dL1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-25",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 35,
+    "_PRIVATE_values": Array [
+      16,
+      19,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    16,
+  ],
+  "_PRIVATE_id": "MOCK-26",
+  "_PRIVATE_kept": Array [
+    19,
+  ],
+  "_PRIVATE_value": 19,
+}
+`;
+
+exports[`case sensitivity: 2d20dh1 1`] = `
+KeepLowest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-31",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 27,
+    "_PRIVATE_values": Array [
+      16,
+      11,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    16,
+  ],
+  "_PRIVATE_id": "MOCK-32",
+  "_PRIVATE_kept": Array [
+    11,
+  ],
+  "_PRIVATE_value": 11,
+}
+`;
+
+exports[`case sensitivity: 2d20dl1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-23",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 9,
+    "_PRIVATE_values": Array [
+      7,
+      2,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    2,
+  ],
+  "_PRIVATE_id": "MOCK-24",
+  "_PRIVATE_kept": Array [
+    7,
+  ],
+  "_PRIVATE_value": 7,
+}
+`;
+
+exports[`case sensitivity: 2d20k1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-19",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 15,
+    "_PRIVATE_values": Array [
+      12,
+      3,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    3,
+  ],
+  "_PRIVATE_id": "MOCK-20",
+  "_PRIVATE_kept": Array [
+    12,
+  ],
+  "_PRIVATE_value": 12,
+}
+`;
+
+exports[`case sensitivity: 2d20kH1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-13",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 28,
+    "_PRIVATE_values": Array [
+      19,
+      9,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    9,
+  ],
+  "_PRIVATE_id": "MOCK-14",
+  "_PRIVATE_kept": Array [
+    19,
+  ],
+  "_PRIVATE_value": 19,
+}
+`;
+
+exports[`case sensitivity: 2d20kL1 1`] = `
+KeepLowest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-5",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 21,
+    "_PRIVATE_values": Array [
+      10,
+      11,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    11,
+  ],
+  "_PRIVATE_id": "MOCK-6",
+  "_PRIVATE_kept": Array [
+    10,
+  ],
+  "_PRIVATE_value": 10,
+}
+`;
+
+exports[`case sensitivity: 2d20kh1 1`] = `
+KeepHighest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-11",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 7,
+    "_PRIVATE_values": Array [
+      5,
+      2,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    2,
+  ],
+  "_PRIVATE_id": "MOCK-12",
+  "_PRIVATE_kept": Array [
+    5,
+  ],
+  "_PRIVATE_value": 5,
+}
+`;
+
+exports[`case sensitivity: 2d20kl1 1`] = `
+KeepLowest {
+  "_PRIVATE_count": 1,
+  "_PRIVATE_dice": Dice {
+    "_PRIVATE_count": 2,
+    "_PRIVATE_id": "MOCK-3",
+    "_PRIVATE_rng": RNGMulberry32 {
+      "_PRIVATE_next": [Function],
+    },
+    "_PRIVATE_sides": 20,
+    "_PRIVATE_value": 8,
+    "_PRIVATE_values": Array [
+      5,
+      3,
+    ],
+  },
+  "_PRIVATE_dropped": Array [
+    5,
+  ],
+  "_PRIVATE_id": "MOCK-4",
+  "_PRIVATE_kept": Array [
+    3,
+  ],
+  "_PRIVATE_value": 3,
+}
+`;
+
+exports[`dice math: 2d6*2+5 1`] = `
+Combiner {
+  "_PRIVATE_id": "MOCK-13",
+  "_PRIVATE_modifier": "+",
+  "_PRIVATE_value": 19,
+  "_PRIVATE_values": Array [
+    Combiner {
+      "_PRIVATE_id": "MOCK-11",
+      "_PRIVATE_modifier": "*",
+      "_PRIVATE_value": 14,
+      "_PRIVATE_values": Array [
+        Dice {
+          "_PRIVATE_count": 2,
+          "_PRIVATE_id": "MOCK-9",
+          "_PRIVATE_rng": RNGMulberry32 {
+            "_PRIVATE_next": [Function],
+          },
+          "_PRIVATE_sides": 6,
+          "_PRIVATE_value": 7,
+          "_PRIVATE_values": Array [
+            3,
+            4,
+          ],
+        },
+        Constant {
+          "_PRIVATE_id": "MOCK-10",
+          "_PRIVATE_value": 2,
+        },
+      ],
+    },
+    Constant {
+      "_PRIVATE_id": "MOCK-12",
+      "_PRIVATE_value": 5,
+    },
+  ],
+}
+`;
+
+exports[`dice math: 2d6+4d4 1`] = `
+Combiner {
+  "_PRIVATE_id": "MOCK-16",
+  "_PRIVATE_modifier": "+",
+  "_PRIVATE_value": 15,
+  "_PRIVATE_values": Array [
+    Dice {
+      "_PRIVATE_count": 2,
+      "_PRIVATE_id": "MOCK-14",
+      "_PRIVATE_rng": RNGMulberry32 {
+        "_PRIVATE_next": [Function],
+      },
+      "_PRIVATE_sides": 6,
+      "_PRIVATE_value": 8,
+      "_PRIVATE_values": Array [
+        4,
+        4,
+      ],
+    },
+    Dice {
+      "_PRIVATE_count": 4,
+      "_PRIVATE_id": "MOCK-15",
+      "_PRIVATE_rng": RNGMulberry32 {
+        "_PRIVATE_next": [Function],
+      },
+      "_PRIVATE_sides": 4,
+      "_PRIVATE_value": 7,
+      "_PRIVATE_values": Array [
+        2,
+        3,
+        1,
+        1,
+      ],
+    },
+  ],
+}
+`;
+
+exports[`dice math: 2d20kh1+5 1`] = `
+Combiner {
+  "_PRIVATE_id": "MOCK-8",
+  "_PRIVATE_modifier": "+",
+  "_PRIVATE_value": 10,
+  "_PRIVATE_values": Array [
+    KeepHighest {
+      "_PRIVATE_count": 1,
+      "_PRIVATE_dice": Dice {
+        "_PRIVATE_count": 2,
+        "_PRIVATE_id": "MOCK-5",
+        "_PRIVATE_rng": RNGMulberry32 {
+          "_PRIVATE_next": [Function],
+        },
+        "_PRIVATE_sides": 20,
+        "_PRIVATE_value": 8,
+        "_PRIVATE_values": Array [
+          5,
+          3,
+        ],
+      },
+      "_PRIVATE_dropped": Array [
+        3,
+      ],
+      "_PRIVATE_id": "MOCK-6",
+      "_PRIVATE_kept": Array [
+        5,
+      ],
+      "_PRIVATE_value": 5,
+    },
+    Constant {
+      "_PRIVATE_id": "MOCK-7",
+      "_PRIVATE_value": 5,
+    },
+  ],
+}
+`;
+
+exports[`dice math: 2d20kl1+5 1`] = `
+Combiner {
+  "_PRIVATE_id": "MOCK-4",
+  "_PRIVATE_modifier": "+",
+  "_PRIVATE_value": 6,
+  "_PRIVATE_values": Array [
+    KeepLowest {
+      "_PRIVATE_count": 1,
+      "_PRIVATE_dice": Dice {
+        "_PRIVATE_count": 2,
+        "_PRIVATE_id": "MOCK-1",
+        "_PRIVATE_rng": RNGMulberry32 {
+          "_PRIVATE_next": [Function],
+        },
+        "_PRIVATE_sides": 20,
+        "_PRIVATE_value": 7,
+        "_PRIVATE_values": Array [
+          6,
+          1,
+        ],
+      },
+      "_PRIVATE_dropped": Array [
+        6,
+      ],
+      "_PRIVATE_id": "MOCK-2",
+      "_PRIVATE_kept": Array [
+        1,
+      ],
+      "_PRIVATE_value": 1,
+    },
+    Constant {
+      "_PRIVATE_id": "MOCK-3",
+      "_PRIVATE_value": 5,
+    },
+  ],
+}
+`;
+
+exports[`dice math: d10*d10 1`] = `
+Combiner {
+  "_PRIVATE_id": "MOCK-25",
+  "_PRIVATE_modifier": "*",
+  "_PRIVATE_value": 63,
+  "_PRIVATE_values": Array [
+    Dice {
+      "_PRIVATE_count": 1,
+      "_PRIVATE_id": "MOCK-23",
+      "_PRIVATE_rng": RNGMulberry32 {
+        "_PRIVATE_next": [Function],
+      },
+      "_PRIVATE_sides": 10,
+      "_PRIVATE_value": 9,
+      "_PRIVATE_values": Array [
+        9,
+      ],
+    },
+    Dice {
+      "_PRIVATE_count": 1,
+      "_PRIVATE_id": "MOCK-24",
+      "_PRIVATE_rng": RNGMulberry32 {
+        "_PRIVATE_next": [Function],
+      },
+      "_PRIVATE_sides": 10,
+      "_PRIVATE_value": 7,
+      "_PRIVATE_values": Array [
+        7,
+      ],
+    },
+  ],
+}
+`;
+
+exports[`dice math: d20+d4 1`] = `
+Combiner {
+  "_PRIVATE_id": "MOCK-22",
+  "_PRIVATE_modifier": "+",
+  "_PRIVATE_value": 18,
+  "_PRIVATE_values": Array [
+    Dice {
+      "_PRIVATE_count": 1,
+      "_PRIVATE_id": "MOCK-20",
+      "_PRIVATE_rng": RNGMulberry32 {
+        "_PRIVATE_next": [Function],
+      },
+      "_PRIVATE_sides": 20,
+      "_PRIVATE_value": 15,
+      "_PRIVATE_values": Array [
+        15,
+      ],
+    },
+    Dice {
+      "_PRIVATE_count": 1,
+      "_PRIVATE_id": "MOCK-21",
+      "_PRIVATE_rng": RNGMulberry32 {
+        "_PRIVATE_next": [Function],
+      },
+      "_PRIVATE_sides": 4,
+      "_PRIVATE_value": 3,
+      "_PRIVATE_values": Array [
+        3,
+      ],
+    },
+  ],
+}
+`;
+
+exports[`dice math: d20-d4 1`] = `
+Combiner {
+  "_PRIVATE_id": "MOCK-19",
+  "_PRIVATE_modifier": "-",
+  "_PRIVATE_value": 17,
+  "_PRIVATE_values": Array [
+    Dice {
+      "_PRIVATE_count": 1,
+      "_PRIVATE_id": "MOCK-17",
+      "_PRIVATE_rng": RNGMulberry32 {
+        "_PRIVATE_next": [Function],
+      },
+      "_PRIVATE_sides": 20,
+      "_PRIVATE_value": 19,
+      "_PRIVATE_values": Array [
+        19,
+      ],
+    },
+    Dice {
+      "_PRIVATE_count": 1,
+      "_PRIVATE_id": "MOCK-18",
+      "_PRIVATE_rng": RNGMulberry32 {
+        "_PRIVATE_next": [Function],
+      },
+      "_PRIVATE_sides": 4,
+      "_PRIVATE_value": 2,
+      "_PRIVATE_values": Array [
+        2,
+      ],
+    },
+  ],
+}
+`;
+
+exports[`dice math: floor(2d20/(d2+1)) 1`] = `
+Floor {
+  "_PRIVATE_id": "MOCK-31",
+  "_PRIVATE_value": 7,
+  "_PRIVATE_values": Array [
+    Combiner {
+      "_PRIVATE_id": "MOCK-30",
+      "_PRIVATE_modifier": "/",
+      "_PRIVATE_value": 7.5,
+      "_PRIVATE_values": Array [
+        Dice {
+          "_PRIVATE_count": 2,
+          "_PRIVATE_id": "MOCK-26",
+          "_PRIVATE_rng": RNGMulberry32 {
+            "_PRIVATE_next": [Function],
+          },
+          "_PRIVATE_sides": 20,
+          "_PRIVATE_value": 15,
+          "_PRIVATE_values": Array [
+            12,
+            3,
+          ],
+        },
+        Combiner {
+          "_PRIVATE_id": "MOCK-29",
+          "_PRIVATE_modifier": "+",
+          "_PRIVATE_value": 2,
+          "_PRIVATE_values": Array [
+            Dice {
+              "_PRIVATE_count": 1,
+              "_PRIVATE_id": "MOCK-27",
+              "_PRIVATE_rng": RNGMulberry32 {
+                "_PRIVATE_next": [Function],
+              },
+              "_PRIVATE_sides": 2,
+              "_PRIVATE_value": 1,
+              "_PRIVATE_values": Array [
+                1,
+              ],
+            },
+            Constant {
+              "_PRIVATE_id": "MOCK-28",
+              "_PRIVATE_value": 1,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;
