@@ -11,9 +11,11 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Page from '../../components/page.js';
 import ExternalLink from '../../components/link-external.js';
 
-import './page.scss';
-
 const thanks = [
+  {
+    url: 'https://dnd.wizards.com/',
+    name: 'Dugeons and Dragons 5th Edition',
+  },
   {
     url: 'https://donjon.bin.sh',
     name: "drow's donjon",
@@ -38,10 +40,8 @@ const thanks = [
 ];
 export default () => {
   return (
-    <Page className="thanks-page" maxWidth="sm">
-      <Typography variant="h4">
-        Inspired by...
-      </Typography>
+    <Page maxWidth="sm">
+      <Typography variant="h4">Inspired by...</Typography>
       <List>
         {thanks.map((link) => (
           <ListItemLink key={link.url} href={link.url}>

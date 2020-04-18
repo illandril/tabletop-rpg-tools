@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 import Page from '../../components/page.js';
 
-import './page.scss';
+import styles from './page.module.scss';
 
 const LicenseLine = ({ children }) => (
   <Typography component="p" variant="body1">
@@ -17,7 +17,7 @@ const LicenseLine = ({ children }) => (
 
 export default () => {
   return (
-    <Page className="ogl-license-page" maxWidth="md">
+    <Page className={styles.page} maxWidth="md">
       <Typography variant="h6" align="center">
         {`OPEN GAME LICENSE Version 1.0a`}
       </Typography>

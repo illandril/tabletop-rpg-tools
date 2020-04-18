@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: MIT */
 
-const { brown, blueGrey, red, deepOrange } = require('@material-ui/core/colors');
+const { blueGrey, red, deepOrange } = require('@material-ui/core/colors');
 
 module.exports = {
   primary: blueGrey[800],

@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: MIT */
 
 import React from 'react';
-
+import clsx from 'clsx';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
@@ -19,7 +19,7 @@ import Page from '../../../components/page.js';
 import Confusion from '../../../data/srd/5.1/spells/confusion.js';
 import Reincarnate from '../../../data/srd/5.1/spells/reincarnate.js';
 
-import './page.scss';
+import styles from './page.module.scss';
 
 const spells = [Confusion, Reincarnate];
 const dice = new RandomNumberGenerator();
@@ -27,33 +27,31 @@ const dice = new RandomNumberGenerator();
 const DescriptionLine = ({ line }) => {
   if (line instanceof RandomRollTable) {
     const [rollResult, setRollResult] = React.useState(false);
-    const roll = function() {
-      setRollResult(line.rollResult(dice));
-    };
+    const roll = () => setRollResult(line.rollResult(dice));
     const resultValue = rollResult ? rollResult.diceValue : '';
     const resultText = rollResult ? rollResult.tableResult : '';
     let lastEnd = 0;
     return (
-      <div className="roll-table">
-        <div className="header dice">d{line.totalWeight}</div>
-        <div className="header name">{line.name}</div>
-        <div className="result">
+      <div className={styles.rollTable}>
+        <div className={clsx(styles.header, styles.dice)}>d{line.totalWeight}</div>
+        <div className={clsx(styles.header, styles.name)}>{line.name}</div>
+        <div className={styles.result}>
           <IconButton aria-label="roll table" onClick={roll}>
             <DiceIcon />
-          </IconButton> {resultValue}<br/>
+          </IconButton>{' '}
+          {resultValue}
+          <br />
           {resultText}
         </div>
         {line.options.map((option, i) => {
           const start = lastEnd + 1;
           const end = start + (option.weight - 1);
-          const range = start + ((start === end) ? '' : ('-' + end));
+          const range = start + (start === end ? '' : '-' + end);
           lastEnd = end;
           return (
             <React.Fragment key={i}>
-              <div className="dice">
-                {range}
-              </div>
-              <div className="name">{option.value}</div>
+              <div className={styles.dice}>{range}</div>
+              <div className={styles.name}>{option.value}</div>
             </React.Fragment>
           );
         })}
@@ -65,7 +63,7 @@ const DescriptionLine = ({ line }) => {
 };
 
 const Spell = ({ spell }) => (
-  <div className="spell">
+  <div className={styles.spell}>
     <div>
       <b>Casting Time:</b> {spell.castingTime}
     </div>
@@ -91,7 +89,7 @@ export default () => {
   };
 
   return (
-    <Page className="fifth-edition-spell-tables" maxWidth="md">
+    <Page className={styles.page} title="5e Spell Tables" maxWidth="md">
       {spells.map((spell) => (
         <ExpansionPanel
           key={spell.name}

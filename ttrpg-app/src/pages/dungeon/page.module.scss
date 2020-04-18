@@ -2,12 +2,12 @@
 
 @import '../../theme.scss';
 
-.dungeon-page {
+.page {
   display: grid;
   grid-template-columns: max-content max-content;
 }
 
-.dungeon-form {
+.form {
   max-width: 200px;
   padding: theme-spacing(2);
 }

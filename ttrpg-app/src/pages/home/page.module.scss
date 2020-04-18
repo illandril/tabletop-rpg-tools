@@ -1,0 +1,12 @@
+/* SPDX-License-Identifier: MIT */
+
+@import '../../theme.scss';
+
+.page {
+  :global(.MuiCardContent-root) {
+    min-height: 150px;
+    svg {
+      vertical-align: text-top;
+    }
+  }
+}

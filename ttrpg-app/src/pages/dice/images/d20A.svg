@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 100 100">
+  <!-- SPDX-License-Identifier: MIT -->
+  <title>20-sided die with advantage</title>
+  <style>
+    .dice,
+    .digit {
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .dice {
+      stroke-width: 3;
+    }
+    .digit {
+      stroke-width: 6;
+    }
+  </style>
+  <polygon class="dice" points="50,5 10,30 10,70 50,95 90,70 90,30"/>
+  <path class="digit" d="M25,35l15,0 0,17.5 -15,0 0,17.5 15,0"/>
+  <path class="digit" d="M50,35l0,35 15,0 0,-35 -15,0"/>
+  <path class="digit" d="M72.5,50l10,0 -5,0 0,-5 0,10"/>
+</svg>

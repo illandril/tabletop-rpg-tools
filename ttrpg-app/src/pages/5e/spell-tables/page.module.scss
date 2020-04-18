@@ -2,12 +2,12 @@
 
 @import '../../../theme.scss';
 
-.fifth-edition-spell-tables {
+.page {
   .spell {
     > div + div {
       margin-top: theme-spacing(1);
     }
-    .roll-table {
+    .rollTable {
       display: grid;
       grid-template-columns: fit-content(20%) fit-content(40%) fit-content(40%);
       align-items: stretch;

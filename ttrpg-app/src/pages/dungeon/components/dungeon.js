@@ -10,7 +10,7 @@ import RoomLayouts from '@illandril/tabletop-rpg-tools/dungeon/room/room-layouts
 
 import DungeonImagerReact from './dungeon-imager-react.js';
 
-import './dungeon.scss';
+import styles from './dungeon.module.scss';
 
 export default class Dungeon extends React.Component {
   state = {
@@ -19,7 +19,7 @@ export default class Dungeon extends React.Component {
 
   rebuildDungeon() {
     this.setState({ dungeon: false });
-    setTimeout(()=>{
+    setTimeout(() => {
       const dungeonSettings = this.props.dungeonSettings;
 
       const dungeonFactory = new DungeonFactory(dungeonSettings.seed);
@@ -52,17 +52,17 @@ export default class Dungeon extends React.Component {
       dungeonFactory.corridorLayout.deadendRemovalChance = dungeonSettings.deadendRemovalChance;
 
       const dungeonBuildRequest = dungeonFactory.createDungeon().then((dungeon) => {
-          console.log(new Date().getTime() + ' Dungeon built');
-          if (this._dungeonBuildRequest === dungeonBuildRequest) {
-            console.log('Dungeon used');
-            this._dungeonBuildRequest = null;
-            this.setState({ dungeon: dungeon });
-          } else {
-            console.log(new Date().getTime() + ' Too slow, dungeon not used');
-          }
+        console.log(new Date().getTime() + ' Dungeon built');
+        if (this._dungeonBuildRequest === dungeonBuildRequest) {
+          console.log('Dungeon used');
+          this._dungeonBuildRequest = null;
+          this.setState({ dungeon: dungeon });
+        } else {
+          console.log(new Date().getTime() + ' Too slow, dungeon not used');
+        }
       });
       this._dungeonBuildRequest = dungeonBuildRequest;
-    },1);
+    }, 1);
   }
 
   componentDidMount() {
@@ -72,7 +72,7 @@ export default class Dungeon extends React.Component {
 
   componentDidUpdate(prevProps, prevState) {
     console.log(new Date().getTime() + ' did update');
-    if ( JSON.stringify(prevProps.dungeonSettings) !== JSON.stringify(this.props.dungeonSettings) ) {
+    if (JSON.stringify(prevProps.dungeonSettings) !== JSON.stringify(this.props.dungeonSettings)) {
       console.log(new Date().getTime() + ' New settings');
       this.rebuildDungeon();
     }
@@ -86,16 +86,13 @@ export default class Dungeon extends React.Component {
   render() {
     if (!this.state.dungeon) {
       return (
-        <Typography
-          component="div"
-          color="textSecondary"
-          variant="h4"
-          className="dungeon-loading"
-        >Generating Dungeon...</Typography>
+        <Typography component="div" color="textSecondary" variant="h4" className={styles.loading}>
+          Generating Dungeon...
+        </Typography>
       );
     }
     return (
-      <div className="dungeon-display">
+      <div className={styles.display}>
         <DungeonImagerReact dungeon={this.state.dungeon} />
       </div>
     );

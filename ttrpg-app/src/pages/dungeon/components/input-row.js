@@ -4,12 +4,8 @@ import React from 'react';
 
 import clsx from 'clsx';
 
-import './input-row.scss';
+import styles from './input-row.module.scss';
 
 export default ({ children, className }) => {
-  return (
-    <div className={clsx('dungeon-inputRow', className)}>
-      {children}
-    </div>
-  );
+  return <div className={clsx(styles.inputRow, className)}>{children}</div>;
 };

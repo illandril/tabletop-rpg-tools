@@ -2,7 +2,7 @@
 
 @import '../../../theme.scss';
 
-.dungeon-sliderRow .MuiGrid-item:first-child {
+.sliderRow :global(.MuiGrid-item):first-child {
   padding-left: theme-spacing(2);
   padding-right: theme-spacing();
 }

@@ -1,13 +1,66 @@
+var crypto = require('crypto');
 const path = require('path');
+
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
 const colors = require('./src/colors.js');
 const metadata = require('./src/metadata.js');
 
+const SRC_DIR = path.resolve(__dirname, 'src');
+
 const FILE_PREFIX = '[name].[contenthash]';
 const CHUNK_PREFIX = 'chunk-[contenthash]';
+
+const BAD_CSS_CHARACTERS = /[^a-zA-Z0-9\\-_]/g;
+const BAD_CSS_PREFIX = /^((-?[0-9])|--)/;
+function sanitizeCSSClassName(className) {
+  return className.replace(BAD_CSS_CHARACTERS, '-').replace(BAD_CSS_PREFIX, '_$1');
+}
+
+const SVG_CLASS_PREFIXER = (node, extra) => {
+  const fileName = path.basename(extra.path);
+  const md5 = crypto.createHash('md5');
+  const pathHash = md5.update(extra.path).digest('base64');
+  return sanitizeCSSClassName(fileName + '-' + pathHash.substring(0, 5));
+};
+
+const CSSLoader = {
+  loader: 'css-loader',
+  options: {
+    modules: false,
+  },
+};
+
+const CSSModuleLoader = {
+  loader: 'css-loader',
+  options: {
+    modules: {
+      mode: 'local',
+      getLocalIdent: (loaderContext, localIdentName, localName, options) => {
+        let prefix = path.relative(SRC_DIR, loaderContext.resourcePath).replace(/\\/g, '/');
+        prefix = prefix.replace(/^(page|component)s\//, '$1_');
+        prefix = prefix.replace(/(\/page)?\.module\.scss$/, '');
+        return sanitizeCSSClassName(prefix + '__' + localName);
+      },
+    },
+  },
+};
+
+const ImageLoaders = [
+  {
+    loader: 'file-loader',
+    options: {
+      name: 'images/[name]-[hash].[ext]',
+    },
+  },
+  {
+    loader: 'image-webpack-loader',
+    options: {},
+  },
+];
 
 module.exports = {
   entry: {
@@ -32,11 +85,16 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        use: [MiniCssExtractPlugin.loader, CSSLoader],
       },
       {
         test: /\.scss$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+        exclude: /\.module\.scss$/,
+        use: [MiniCssExtractPlugin.loader, CSSLoader, 'sass-loader'],
+      },
+      {
+        test: /\.module\.scss$/,
+        use: [MiniCssExtractPlugin.loader, CSSModuleLoader, 'sass-loader'],
       },
       {
         test: /\.jsx?$/,
@@ -54,14 +112,37 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g|svg|gif)?$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            name: 'images/[name]-[hash].[ext]',
-          },
+        test: /\.svg$/,
+        issuer: {
+          test: /\.jsx?$/,
         },
+        use: [
+          {
+            loader: '@svgr/webpack',
+            options: {
+              svgoConfig: {
+                plugins: {
+                  removeViewBox: false,
+                  prefixIds: {
+                    prefix: SVG_CLASS_PREFIXER,
+                  },
+                },
+              },
+            },
+          },
+        ],
+      },
+      {
+        test: /\.svg$/,
+        issuer: {
+          test: /\.s?css?$/,
+        },
+        use: ImageLoaders,
+      },
+      {
+        test: /\.(png|jpe?g|gif)?$/,
+        exclude: /node_modules/,
+        use: ImageLoaders,
       },
     ],
   },

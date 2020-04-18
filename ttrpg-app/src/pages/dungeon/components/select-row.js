@@ -7,12 +7,18 @@ import TextField from '@material-ui/core/TextField';
 
 import InputRow from './input-row.js';
 
-import './select-row.scss';
+import styles from './select-row.module.scss';
 
 export default ({ id, label, options, value, setValue }) => {
   return (
-    <InputRow className="dungeon-selectRow">
-      <TextField select id={id} label={label} value={value} onChange={(event) => setValue(event.target.value)}>
+    <InputRow className={styles.selectRow}>
+      <TextField
+        select
+        id={id}
+        label={label}
+        value={value}
+        onChange={(event) => setValue(event.target.value)}
+      >
         {options.map((option) => (
           <MenuItem key={option.id} value={option.id}>
             {option.name}

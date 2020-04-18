@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 100 100">
+  <!-- SPDX-License-Identifier: MIT -->
+  <title>N-sided die</title>
+  <style>
+    .dice {
+      stroke: currentColor;
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .sides {
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: #fff;
+    }
+  </style>
+  <polygon class="dice" points="50,5 25,15 10,35 10,65 25,85 50,95 75,85 90,65 90,35 75,15"/>
+  <polygon class="sides" points="58,5 98,5 98,30 58,30"/>
+</svg>

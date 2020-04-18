@@ -5,25 +5,21 @@
   <style>
     .dice,
     .digit {
-      stroke: #000;
+      stroke: currentColor;
       stroke-linecap: round;
       stroke-linejoin: round;
+      fill: none;
     }
     .dice {
-      fill: #fff;
       stroke-width: 3;
-    }
-    .dice.back {
-      fill: #000;
     }
     .digit {
       stroke-width: 6;
-      fill: none;
     }
   </style>
-  <polygon class="dice back" points="50,5 5,60 5,70 50,95 95,70 95,60"/>
-  <polygon class="dice front" points="50,5 15,65 50,85 85,65"/>
-  <path class="digit" d="M32.5,35l0,35"/>
-  <path class="digit" d="M40,35l0,35 10,0 0,-35 -10,0"/>
-  <path class="digit" d="M57.5,35l0,35 10,0 0,-35 -10,0"/>
+  <path transform="translate(10,0)" class="dice" d="M45,95 L85,60 85,40 45,5"/>
+  <polygon id="d10" class="dice" points="45,5 5,40 5,60 45,95 85,60 85,40"/>
+  <path class="digit" d="M25,35l0,35"/>
+  <path class="digit" d="M35,35l0,35 10,0 0,-35 -10,0"/>
+  <path class="digit" d="M55,35l0,35 10,0 0,-35 -10,0"/>
 </svg>

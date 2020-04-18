@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 100 100">
+  <!-- SPDX-License-Identifier: MIT -->
+  <title>100-sided die</title>
+  <style>
+    .dice {
+      stroke: currentColor;
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+  </style>
+  <path transform="translate(10,0)" class="dice" d="M45,95 L85,60 85,40 45,5"/>
+  <polygon id="d10" class="dice" points="45,5 5,40 5,60 45,95 85,60 85,40"/>
+</svg>

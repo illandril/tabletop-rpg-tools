@@ -6,4 +6,5 @@ module.exports = {
   description: 'Tools useful to DMs and players of tabletop RPGs (primarily D&D 5e).',
   author: 'Joe Spandrusyszyn',
   authorURL: 'https://ttrpg.illandril.net',
+  baseURL: 'https://ttrpg.illandril.net',
 };

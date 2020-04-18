@@ -9,12 +9,12 @@ import Typography from '@material-ui/core/Typography';
 
 import InputRow from './input-row.js';
 
-import './slider-input-row.scss';
+import styles from './slider-input-row.module.scss';
 
 export default ({ id, label, value, setValue, min, max, step, valueSuffix }) => {
   const labelID = id + '-label';
   return (
-    <InputRow className="dungeon-sliderRow">
+    <InputRow className={styles.sliderRow}>
       <InputLabel id={labelID} htmlFor={id} shrink>
         {label}
       </InputLabel>

@@ -23,11 +23,11 @@ import MainPages from '../pages/main-pages';
 
 import metadata from '../metadata.js';
 
-import './header.scss';
+import styles from './header.module.scss';
 
 const MenuDrawer = ({ closeMenu }) => {
   return (
-    <List className="nav-menu">
+    <List className={styles.navMenu}>
       <ListItemLink to="/" onClick={closeMenu}>
         <ListItemIcon>
           <HomeIcon />
@@ -66,7 +66,7 @@ const AppLayout = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6">{metadata.name}</Typography>
-          <div className="header-spacer" />
+          <div className={styles.headerSpacer} />
           {MainPages.map(
             (item, index) =>
               item.icon && (

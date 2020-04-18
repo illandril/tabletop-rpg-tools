@@ -8,23 +8,19 @@ import Link from './link-internal.js';
 
 import metadata from '../metadata.js';
 
-import './footer.scss';
-
-const CLASSES = {
-  footer: 'footer',
-};
+import styles from './footer.module.scss';
 
 export default () => {
   return (
-    <Container component="footer" className={CLASSES.footer} maxWidth="lg">
+    <Container component="footer" className={styles.footer} maxWidth="lg">
       <Typography variant="body2" color="textPrimary" align="center">
         © 2020 {metadata.author}
       </Typography>
       <Typography variant="body2" color="textSecondary" align="center">
-      Some content used under the <Link to="ogl">Open Gaming License</Link>
+        Some content used under the <Link to="ogl">Open Gaming License</Link>
       </Typography>
       <Typography variant="body2" color="textSecondary" align="center">
-      Inspired by <Link to="thanks">many other great tools</Link>
+        Inspired by <Link to="thanks">many other great tools</Link>
       </Typography>
     </Container>
   );

@@ -4,9 +4,15 @@ import RandomRollTable from '@illandril/tabletop-rpg-tools/dice/random-roll-tabl
 import Spell from './spell.js';
 
 const BehaviorTable = new RandomRollTable('Behavior');
-BehaviorTable.addOption('The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn’t take an action this turn.', 1);
+BehaviorTable.addOption(
+  'The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn’t take an action this turn.',
+  1
+);
 BehaviorTable.addOption('The creature doesn’t move or take actions this turn.', 5);
-BehaviorTable.addOption('The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.', 2);
+BehaviorTable.addOption(
+  'The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.',
+  2
+);
 BehaviorTable.addOption('The creature can act and move normally.', 2);
 Object.freeze(BehaviorTable);
 

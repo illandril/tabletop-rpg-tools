@@ -23,7 +23,7 @@ import PercentInputRow from './components/percent-input-row.js';
 import SelectRow from './components/select-row.js';
 import TextRow from './components/text-row.js';
 
-import './page.scss';
+import styles from './page.module.scss';
 
 export default () => {
   const MAX_SEED = 4294967296;
@@ -89,8 +89,8 @@ export default () => {
   console.log('Redraw page');
 
   return (
-    <Page className="dungeon-page">
-      <Paper elevation={3} className="dungeon-form">
+    <Page className={styles.page} title="Dungeon Builder">
+      <Paper elevation={3} className={styles.form}>
         <TextRow
           id="seed"
           label="Seed"
