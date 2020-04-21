@@ -2,32 +2,52 @@
 
 import clsx from 'clsx';
 import React from 'react';
+import PropTypes from 'prop-types';
 import { useRouteMatch } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
 import Container from '@material-ui/core/Container';
+import { makeStyles } from '@material-ui/core/styles';
 
 import metadata from '../metadata.js';
 
-import styles from './page.module.scss';
+const useStyles = makeStyles((theme) => ({
+  content: {
+    marginTop: theme.spacing(3),
+    marginBottom: theme.spacing(3),
+  },
+}));
 
-export default ({ title, maxWidth, className, children }) => {
+export default function Page({ title, maxWidth, className, children, noIndex }) {
+  const classes = useStyles();
   const routeMatch = useRouteMatch();
+
   let url = routeMatch.url;
   if (url == '/' && !routeMatch.isExact) {
     url = '/404';
   }
+
   return (
     <Container
       component="main"
       maxWidth={maxWidth || 'lg'}
-      className={clsx(styles.content, className)}
+      className={clsx(classes.content, className)}
     >
       <Helmet>
         <title>{`${title} - ${metadata.name}`}</title>
-        <link rel="canonical" href={metadata.baseURL + url} />
+        {(noIndex && <meta name="robots" content="noindex" />) || (
+          <link rel="canonical" href={metadata.baseURL + url} />
+        )}
       </Helmet>
       {children}
     </Container>
   );
+}
+
+Page.propTypes = {
+  title: PropTypes.string.isRequired,
+  maxWidth: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl', false]),
+  className: PropTypes.string,
+  children: PropTypes.node.isRequired,
+  noIndex: PropTypes.bool,
 };

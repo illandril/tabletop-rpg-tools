@@ -1,50 +1,57 @@
 /* SPDX-License-Identifier: MIT */
 
 import React from 'react';
-import clsx from 'clsx';
 
+import { makeStyles } from '@material-ui/core/styles';
 import ExplosionIcon from '@material-ui/icons/Flare';
 
+import Types from './types.js';
 import Dice from './dice.js';
-
-import styles from './explode-dice.module.scss';
 
 const EXPLODED_FIRST = false;
 
+const useStyles = makeStyles({
+  explodeIcon: {
+    position: 'absolute',
+    left: '10%',
+    top: '10%',
+    height: '80%',
+    width: '80%',
+    color: 'rgba(255, 125, 0, 0.33)',
+    zIndex: -1,
+  },
+});
+
 export default function ExplodeDice({ explosion }) {
+  const classes = useStyles();
+
   function extraProvider(value) {
     if (explosion.isExploded(value)) {
-      return (
-        <div className={styles.exploded}>
-          <ExplosionIcon />
-        </div>
-      );
+      return <ExplosionIcon className={classes.explodeIcon} />;
     }
   }
   return (
-    <div className={clsx(styles.explode)}>
+    <span>
       {(EXPLODED_FIRST && (
         <>
-          <div className={styles.original}>
-            <Dice
-              sides={explosion.sides}
-              values={explosion.originalValues}
-              extraProvider={extraProvider}
-            />
-          </div>
-          <div className={styles.extra}>
-            <Dice
-              sides={explosion.sides}
-              values={explosion.extraValues}
-              extraProvider={extraProvider}
-            />
-          </div>
+          <Dice
+            sides={explosion.sides}
+            values={explosion.originalValues}
+            extraProvider={extraProvider}
+          />
+          <Dice
+            sides={explosion.sides}
+            values={explosion.extraValues}
+            extraProvider={extraProvider}
+          />
         </>
       )) || (
-        <div className={styles.values}>
-          <Dice sides={explosion.sides} values={explosion.values} extraProvider={extraProvider} />
-        </div>
+        <Dice sides={explosion.sides} values={explosion.values} extraProvider={extraProvider} />
       )}
-    </div>
+    </span>
   );
 }
+
+ExplodeDice.propTypes = {
+  explosion: Types.ExplodedDice,
+};

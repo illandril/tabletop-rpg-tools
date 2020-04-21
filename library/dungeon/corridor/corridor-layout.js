@@ -1,5 +1,6 @@
 /* SPDX-License-Identifier: MIT */
 
+import { TypeCheck } from '../../utils';
 import { CardinalDirections } from '../directions.js';
 
 export default class CorridorLayout {
@@ -12,9 +13,7 @@ export default class CorridorLayout {
     return this._PRIVATE_corridorStraightness;
   }
   set corridorStraightness(corridorStraightness) {
-    if (corridorStraightness < 0 || corridorStraightness > 1) {
-      throw new Error('Chance must be between 0 and 1');
-    }
+    TypeCheck.numberBetween('corridorStraightness', 0, 1, corridorStraightness);
     this._PRIVATE_corridorStraightness = corridorStraightness;
   }
 
@@ -29,9 +28,7 @@ export default class CorridorLayout {
     return this._PRIVATE_deadendRemovalChance;
   }
   set deadendRemovalChance(deadendRemovalChance) {
-    if (deadendRemovalChance < 0 || deadendRemovalChance > 1) {
-      throw new Error('Chance must be between 0 and 1');
-    }
+    TypeCheck.numberBetween('deadendRemovalChance', 0, 1, deadendRemovalChance);
     this._PRIVATE_deadendRemovalChance = deadendRemovalChance;
   }
 

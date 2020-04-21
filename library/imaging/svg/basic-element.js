@@ -79,7 +79,6 @@ export default class BasicElement {
 
 function addTransform(element, transform) {
   const oldTransform = element.getAttribute('transform');
-  let newTransform;
   if (oldTransform) {
     element.setAttribute('transform', oldTransform + ' ' + transform);
   } else {

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: MIT */
 
-import ObjectWithAutoID from '../../../utils/object-with-auto-id.js';
+import { ObjectWithAutoID } from '../../../utils';
 
 export default class Floor extends ObjectWithAutoID {
   _PRIVATE_values;

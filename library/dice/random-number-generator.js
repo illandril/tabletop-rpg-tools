@@ -11,21 +11,16 @@
  * secure random number and provide a result that is too predictable for security needs.
  */
 
+import { TypeCheck } from '../utils';
+
 const TWO_PI = 2 * Math.PI;
 
 function withMinMax(min, max, randomFunction) {
-  if (!Number.isInteger(min)) {
-    throw new Error('min and max must be integers');
-  }
+  TypeCheck.integer('min', min);
   if (typeof max === 'undefined') {
     return withMinMax(0, min, randomFunction);
   }
-  if (!Number.isInteger(max)) {
-    throw new Error('min and max must be integers');
-  }
-  if (min > max) {
-    throw new Error('min must be less than or equal to max');
-  }
+  TypeCheck.integerNotBelow('max', min, max);
   return randomFunction(min, max);
 }
 

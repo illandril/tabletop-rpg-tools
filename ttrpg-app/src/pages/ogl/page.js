@@ -1,23 +1,36 @@
 /* Some content licensed under OPEN GAME LICENSE Version 1.0a */
 
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
 
 import Page from '../../components/page.js';
 
-import styles from './page.module.scss';
+const useStyles = makeStyles((theme) => ({
+  licenseLine: {
+    marginTop: theme.spacing(1),
+    marginBottom: theme.spacing(1),
+  },
+}));
 
-const LicenseLine = ({ children }) => (
-  <Typography component="p" variant="body1">
-    {children}
-  </Typography>
-);
-
-export default () => {
+const LicenseLine = ({ children }) => {
+  const classes = useStyles();
   return (
-    <Page className={styles.page} maxWidth="md">
+    <Typography component="p" className={classes.licenseLine} variant="body1">
+      {children}
+    </Typography>
+  );
+};
+
+LicenseLine.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+
+export default function OGLPage() {
+  return (
+    <Page maxWidth="md" title="Open Game License">
       <Typography variant="h6" align="center">
         {`OPEN GAME LICENSE Version 1.0a`}
       </Typography>
@@ -75,4 +88,4 @@ export default () => {
       </LicenseLine>
     </Page>
   );
-};
+}

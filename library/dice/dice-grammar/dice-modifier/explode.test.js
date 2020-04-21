@@ -51,14 +51,12 @@ describe('type: =', () => {
     test('non integer', () => {
       ['1', 2.5, () => 1, { valueOf: () => 1 }, [1]].forEach((nonInteger) => {
         badValueAnySides(nonInteger);
-        [4, 6, 20].forEach((sides) => {});
       });
     });
 
     test('too low', () => {
       [-10, -5, -1, 0].forEach((tooLowInteger) => {
         badValueAnySides(tooLowInteger);
-        [4, 6, 20].forEach((sides) => {});
       });
     });
 
@@ -214,14 +212,12 @@ describe('type: >', () => {
     test('non integer', () => {
       ['1', 2.5, () => 1, { valueOf: () => 1 }, [1]].forEach((nonInteger) => {
         badValueAnySides(nonInteger);
-        [4, 6, 20].forEach((sides) => {});
       });
     });
 
     test('too low', () => {
       [-10, -5, -1, 0].forEach((tooLowInteger) => {
         badValueAnySides(tooLowInteger);
-        [4, 6, 20].forEach((sides) => {});
       });
     });
 
@@ -355,14 +351,12 @@ describe('type: <', () => {
     test('non integer', () => {
       ['2', 2.5, () => 2, { valueOf: () => 2 }, [2]].forEach((nonInteger) => {
         badValueAnySides(nonInteger);
-        [4, 6, 20].forEach((sides) => {});
       });
     });
 
     test('too low', () => {
       [-10, -5, -1, 0, 1].forEach((tooLowInteger) => {
         badValueAnySides(tooLowInteger);
-        [4, 6, 20].forEach((sides) => {});
       });
     });
 

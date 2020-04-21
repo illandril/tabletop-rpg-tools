@@ -1,22 +1,30 @@
 /* SPDX-License-Identifier: MIT */
 
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import MenuItem from '@material-ui/core/MenuItem';
 import TextField from '@material-ui/core/TextField';
+import { makeStyles } from '@material-ui/core/styles';
 
 import InputRow from './input-row.js';
 
-import styles from './select-row.module.scss';
+const useStyles = makeStyles({
+  input: {
+    width: '100%',
+  },
+});
 
-export default ({ id, label, options, value, setValue }) => {
+export default function SelectRow({ id, label, options, value, setValue }) {
+  const classes = useStyles();
   return (
-    <InputRow className={styles.selectRow}>
+    <InputRow>
       <TextField
         select
         id={id}
         label={label}
         value={value}
+        className={classes.input}
         onChange={(event) => setValue(event.target.value)}
       >
         {options.map((option) => (
@@ -27,4 +35,17 @@ export default ({ id, label, options, value, setValue }) => {
       </TextField>
     </InputRow>
   );
+}
+
+SelectRow.propTypes = {
+  id: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
+  options: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  setValue: PropTypes.func.isRequired,
 };

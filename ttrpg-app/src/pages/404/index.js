@@ -6,13 +6,13 @@ import Typography from '@material-ui/core/Typography';
 
 import Page from '../../components/page.js';
 
-export default () => {
+export default function PageNotFound() {
   return (
     <Page title="Page Not Found">
-      <Typography variant="h4" align="Center">
+      <Typography variant="h4" align="center">
         404!
       </Typography>
       <Typography align="center">Page not found</Typography>
     </Page>
   );
-};
+}

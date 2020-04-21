@@ -2,14 +2,13 @@
 
 import React from 'react';
 
-import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
-import ListItemLink from '../../components/list-item-link-external.js';
 import ListItemText from '@material-ui/core/ListItemText';
 
+import ListItemLinkExternal from '../../components/list-item-link-external.js';
+
 import Page from '../../components/page.js';
-import ExternalLink from '../../components/link-external.js';
 
 const thanks = [
   {
@@ -38,17 +37,17 @@ const thanks = [
     name: "Watabou's Medieval Fantasy City Generator",
   },
 ];
-export default () => {
+export default function ThanksPage() {
   return (
-    <Page maxWidth="sm">
+    <Page maxWidth="sm" title="Inspired by...">
       <Typography variant="h4">Inspired by...</Typography>
       <List>
         {thanks.map((link) => (
-          <ListItemLink key={link.url} href={link.url}>
+          <ListItemLinkExternal key={link.url} href={link.url}>
             <ListItemText primary={link.name} secondary={link.secondary} />
-          </ListItemLink>
+          </ListItemLinkExternal>
         ))}
       </List>
     </Page>
   );
-};
+}

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: MIT */
 
-import ObjectWithAutoID from '../../../utils/object-with-auto-id.js';
+import { ObjectWithAutoID, TypeCheck } from '../../../utils';
 
 export default class KeepHighest extends ObjectWithAutoID {
   _PRIVATE_dice;
@@ -10,12 +10,7 @@ export default class KeepHighest extends ObjectWithAutoID {
   _PRIVATE_value;
   constructor(dice, count) {
     super();
-    if (!Number.isInteger(count)) {
-      throw Error('count must be an integer');
-    }
-    if (count > dice.count) {
-      throw Error('count must be less than the number of dice');
-    }
+    TypeCheck.integerBetween('count', 1, dice.count, count);
     this._PRIVATE_dice = dice;
     this._PRIVATE_count = count;
 

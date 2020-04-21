@@ -2,9 +2,8 @@
 
 import React from 'react';
 
+import Types from './types.js';
 import RollWithValue from './roll-with-value.js';
-
-import styles from './rolls.module.scss';
 
 export default function Rolls({ rollResults }) {
   return (
@@ -15,3 +14,7 @@ export default function Rolls({ rollResults }) {
     </div>
   );
 }
+
+Rolls.propTypes = {
+  rollResults: Types.Rolls,
+};

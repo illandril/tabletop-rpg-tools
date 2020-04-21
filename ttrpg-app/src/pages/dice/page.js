@@ -1,13 +1,12 @@
 /* SPDX-License-Identifier: MIT */
 
-import clsx from 'clsx';
 import React from 'react';
-import { CSSTransitionGroup } from 'react-transition-group';
 
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
 
 import HelpOnIcon from '@material-ui/icons/Help';
 import HelpOffIcon from '@material-ui/icons/HelpOutline';
@@ -30,7 +29,50 @@ import D20D from './images/d20D.svg';
 import D100 from './images/d100.svg';
 import DF from './images/dF.svg';
 
-import styles from './page.module.scss';
+const useStyles = makeStyles((theme) => ({
+  page: {
+    textAlign: 'center',
+  },
+  diceBag: {
+    '& svg': {
+      width: 48,
+      height: 48,
+    },
+  },
+  diceForm: {
+    margin: `${theme.spacing(1)}px 0`,
+    '& > *': {
+      verticalAlign: 'middle',
+    },
+  },
+  diceNotationInput: {
+    maxWidth: 150,
+  },
+  help: {
+    textAlign: 'left',
+    maxWidth: 700,
+    margin: `${theme.spacing(1)}px auto`,
+    '& dt': {
+      fontWeight: 'bold',
+    },
+    '& dd': {
+      margin: 0,
+    },
+    '& dd + dt': {
+      marginTop: theme.spacing(1),
+    },
+  },
+  rolls: {
+    display: 'inline-block',
+    margin: '0 auto',
+    textAlign: 'left',
+  },
+  diceHistory: {
+    paddingLeft: '0.4em',
+    fontSize: '0.8em',
+    opacity: 0.75,
+  },
+}));
 
 const DICE = [
   { alt: 'd2', roll: 'd2', icon: D2, coin: true },
@@ -49,7 +91,8 @@ const MAX_HISTORY = 10;
 
 const diceBag = new DiceBag();
 
-export default () => {
+export default function DicePage() {
+  const classes = useStyles();
   const [lastRoll, setLastRoll] = React.useState('');
   const [lastRollError, setLastRollError] = React.useState(false);
   const [rollData, setRollData] = React.useState(null);
@@ -85,7 +128,6 @@ export default () => {
   }
 
   function rollInput(event) {
-    console.log('RollInput: ' + lastRoll);
     roll(lastRoll);
     event.preventDefault();
     return false;
@@ -95,7 +137,7 @@ export default () => {
     setShowHelp(!showHelp);
   }
 
-  const diceIcons = DICE.map((item, i) => {
+  const diceIcons = DICE.map((item) => {
     const DieIcon = item.icon;
     const clickHandler = () => roll(item.roll);
     return (
@@ -111,14 +153,14 @@ export default () => {
   });
 
   return (
-    <Page className={styles.page} title="Dice Roller">
-      <div className={styles.diceBag}>{diceIcons}</div>
-      <form className={styles.diceForm} onSubmit={rollInput}>
+    <Page className={classes.page} title="Dice Roller">
+      <div className={classes.diceBag}>{diceIcons}</div>
+      <form className={classes.diceForm} onSubmit={rollInput}>
         <TextField
           label="Dice Notation"
           variant="outlined"
           size="small"
-          className={styles.diceNotationInput}
+          className={classes.diceNotationInput}
           value={lastRoll}
           error={lastRollError}
           onChange={handleInput}
@@ -132,7 +174,7 @@ export default () => {
         </Button>
       </form>
       {showHelp && (
-        <div className={styles.help}>
+        <div className={classes.help}>
           <Typography variant="h6">Dice Notation Help</Typography>
           <dl>
             <dt>{`dX`}</dt>
@@ -170,9 +212,11 @@ export default () => {
           </dl>
         </div>
       )}
-      <div className={styles.rolls}>
-        <div className={styles.lastRoll}>{rollData && <RollWithValue rollResult={rollData} />}</div>
-        <div className={styles.diceHistory}>
+      <div className={classes.rolls}>
+        <div className={classes.lastRoll}>
+          {rollData && <RollWithValue rollResult={rollData} />}
+        </div>
+        <div className={classes.diceHistory}>
           {history.map((rollData) => (
             <RollWithValue key={rollData.id} rollResult={rollData} />
           ))}
@@ -180,4 +224,4 @@ export default () => {
       </div>
     </Page>
   );
-};
+}

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: MIT */
 
-import ObjectWithAutoID from '../../utils/object-with-auto-id.js';
+import { ObjectWithAutoID, TypeCheck } from '../../utils';
 
 export default class FudgeDice extends ObjectWithAutoID {
   _PRIVATE_count;
@@ -8,9 +8,7 @@ export default class FudgeDice extends ObjectWithAutoID {
   _PRIVATE_value;
   constructor(rng, count) {
     super();
-    if (!Number.isInteger(count)) {
-      throw Error('count must be an integer');
-    }
+    TypeCheck.integer('count', count);
     this._PRIVATE_count = count;
     const values = [];
     let total = 0;

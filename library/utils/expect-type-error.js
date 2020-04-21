@@ -16,6 +16,15 @@ const ExpectTypeError = {
   integerBetween: (name, min, max, fn) => {
     expect(fn).toThrow(new Error(name + ' must be an integer between ' + min + ' and ' + max));
   },
+  number: (name, fn) => {
+    expect(fn).toThrow(new Error(name + ' must be a number'));
+  },
+  numberNotBelow: (name, min, fn) => {
+    expect(fn).toThrow(new Error(name + ' must be a number >= ' + min));
+  },
+  numberBetween: (name, min, max, fn) => {
+    expect(fn).toThrow(new Error(name + ' must be a number between ' + min + ' and ' + max));
+  },
   function: (name, fn) => {
     expect(fn).toThrow(new Error(name + ' must be a function'));
   },

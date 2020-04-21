@@ -1,14 +1,12 @@
 /* SPDX-License-Identifier: MIT */
 
 import React from 'react';
-import clsx from 'clsx';
 
+import Types from './types.js';
 import Combiner from './combiner.js';
 import Dice from './dice.js';
 import ExplodeDice from './explode-dice.js';
 import KeepSomeDice from './keep-some-dice.js';
-
-import styles from './roll.module.scss';
 
 function isNumberOrString(value) {
   const type = typeof value;
@@ -16,9 +14,7 @@ function isNumberOrString(value) {
 }
 
 export default function Roll({ rollResult }) {
-  if (isNumberOrString(rollResult)) {
-    return <div className={styles.value}>{rollResult}</div>;
-  } else if (Array.isArray(rollResult.kept)) {
+  if (Array.isArray(rollResult.kept)) {
     return (
       <KeepSomeDice
         sides={rollResult.sides}
@@ -50,8 +46,12 @@ export default function Roll({ rollResult }) {
       );
     }
   } else if (isNumberOrString(rollResult.value)) {
-    return <Roll rollResult={rollResult.value} />;
+    return <>{rollResult.value}</>;
   } else {
     throw Error('Unexpected rollResult type: ' + JSON.stringify(rollResult));
   }
 }
+
+Roll.propTypes = {
+  rollResult: Types.Roll,
+};

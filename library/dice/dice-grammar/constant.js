@@ -1,14 +1,12 @@
 /* SPDX-License-Identifier: MIT */
 
-import ObjectWithAutoID from '../../utils/object-with-auto-id.js';
+import { ObjectWithAutoID, TypeCheck } from '../../utils';
 
 export default class Constant extends ObjectWithAutoID {
   _PRIVATE_value;
   constructor(value) {
     super();
-    if (!Number.isInteger(value)) {
-      throw Error('value must be an integer');
-    }
+    TypeCheck.integer('value', value);
     this._PRIVATE_value = value;
   }
 

@@ -2,13 +2,10 @@
 
 import React from 'react';
 
-import clsx from 'clsx';
-
-import Container from '@material-ui/core/Container';
-import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import Paper from '@material-ui/core/Paper';
+import { makeStyles } from '@material-ui/core/styles';
 
 import RandomIcon from '@material-ui/icons/Casino';
 
@@ -23,9 +20,18 @@ import PercentInputRow from './components/percent-input-row.js';
 import SelectRow from './components/select-row.js';
 import TextRow from './components/text-row.js';
 
-import styles from './page.module.scss';
+const useStyles = makeStyles((theme) => ({
+  page: {
+    display: 'grid',
+    gridTemplateColumns: 'max-content max-content',
+  },
+  form: {
+    maxWidth: 200,
+    padding: theme.spacing(2),
+  },
+}));
 
-export default () => {
+export default function DungeonPage() {
   const MAX_SEED = 4294967296;
   const [seed, setSeed] = React.useState(Math.floor(Math.random() * (MAX_SEED + 1)));
 
@@ -72,8 +78,6 @@ export default () => {
     setSeed(Math.floor(Math.random() * (MAX_SEED + 1)));
   }
 
-  const CONTROL_WIDTH = 2;
-
   const dungeonSettings = {
     seed: seed,
     dungeonLayout: dungeonLayout,
@@ -86,11 +90,12 @@ export default () => {
     deadendRemovalChance: percentage(deadendRemovalChance),
     stairCount: clamp(stairCount, MIN_STAIR_COUNT, MAX_STAIR_COUNT),
   };
-  console.log('Redraw page');
+
+  const classes = useStyles();
 
   return (
-    <Page className={styles.page} title="Dungeon Builder">
-      <Paper elevation={3} className={styles.form}>
+    <Page className={classes.page} title="Dungeon Builder">
+      <Paper elevation={3} className={classes.form}>
         <TextRow
           id="seed"
           label="Seed"
@@ -182,4 +187,4 @@ export default () => {
       <Dungeon dungeonSettings={dungeonSettings} />
     </Page>
   );
-};
+}

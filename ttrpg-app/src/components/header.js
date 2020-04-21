@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: MIT */
 
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import { Link as RouterLink } from 'react-router-dom';
 
 import AppBar from '@material-ui/core/AppBar';
@@ -12,6 +12,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
 
 import HomeIcon from '@material-ui/icons/Home';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -23,28 +24,42 @@ import MainPages from '../pages/main-pages';
 
 import metadata from '../metadata.js';
 
-import styles from './header.module.scss';
+const useStyles = makeStyles((theme) => ({
+  spacer: {
+    flexGrow: 1,
+  },
+  menuText: {
+    paddingRight: theme.spacing(1),
+  },
+}));
 
 const MenuDrawer = ({ closeMenu }) => {
+  const classes = useStyles();
   return (
-    <List className={styles.navMenu}>
+    <List>
       <ListItemLink to="/" onClick={closeMenu}>
         <ListItemIcon>
           <HomeIcon />
         </ListItemIcon>
-        <ListItemText primary="Home" />
+        <ListItemText className={classes.menuText} primary="Home" />
       </ListItemLink>
-      {MainPages.map((item, index) => (
+      {MainPages.map((item) => (
         <ListItemLink key={item.path} to={item.path} onClick={closeMenu}>
           <ListItemIcon>{item.icon}</ListItemIcon>
-          <ListItemText primary={item.name} />
+          <ListItemText className={classes.menuText} primary={item.name} />
         </ListItemLink>
       ))}
     </List>
   );
 };
 
+MenuDrawer.propTypes = {
+  closeMenu: PropTypes.func.isRequired,
+};
+
 const AppLayout = () => {
+  const classes = useStyles();
+
   const [menuOpen, setMenuOpen] = React.useState(false);
   const handleToggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -66,9 +81,9 @@ const AppLayout = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6">{metadata.name}</Typography>
-          <div className={styles.headerSpacer} />
+          <div className={classes.spacer} />
           {MainPages.map(
-            (item, index) =>
+            (item) =>
               item.icon && (
                 <IconButton
                   key={item.path}

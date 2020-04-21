@@ -1,16 +1,48 @@
 /* SPDX-License-Identifier: MIT */
 
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
 
 import DungeonFactory from '@illandril/tabletop-rpg-tools/dungeon/dungeon-factory.js';
+import BuiltDungeon from '@illandril/tabletop-rpg-tools/dungeon/dungeon/dungeon.js';
 import DungeonLayouts from '@illandril/tabletop-rpg-tools/dungeon/dungeon-layout/dungeon-layouts.js';
 import RoomLayouts from '@illandril/tabletop-rpg-tools/dungeon/room/room-layouts.js';
 
 import DungeonImagerReact from './dungeon-imager-react.js';
 
-import styles from './dungeon.module.scss';
+const useStyles = makeStyles((theme) => ({
+  display: {
+    padding: theme.spacing(2),
+  },
+  loading: {
+    padding: theme.spacing(4),
+  },
+}));
+
+const Loading = () => {
+  const classes = useStyles();
+  return (
+    <Typography component="div" color="textSecondary" variant="h4" className={classes.loading}>
+      Generating Dungeon...
+    </Typography>
+  );
+};
+
+const Loaded = ({ dungeon }) => {
+  const classes = useStyles();
+  return (
+    <div className={classes.display}>
+      <DungeonImagerReact dungeon={dungeon} />
+    </div>
+  );
+};
+
+Loaded.propTypes = {
+  dungeon: PropTypes.instanceOf(BuiltDungeon).isRequired,
+};
 
 export default class Dungeon extends React.Component {
   state = {
@@ -52,13 +84,9 @@ export default class Dungeon extends React.Component {
       dungeonFactory.corridorLayout.deadendRemovalChance = dungeonSettings.deadendRemovalChance;
 
       const dungeonBuildRequest = dungeonFactory.createDungeon().then((dungeon) => {
-        console.log(new Date().getTime() + ' Dungeon built');
         if (this._dungeonBuildRequest === dungeonBuildRequest) {
-          console.log('Dungeon used');
           this._dungeonBuildRequest = null;
           this.setState({ dungeon: dungeon });
-        } else {
-          console.log(new Date().getTime() + ' Too slow, dungeon not used');
         }
       });
       this._dungeonBuildRequest = dungeonBuildRequest;
@@ -66,35 +94,38 @@ export default class Dungeon extends React.Component {
   }
 
   componentDidMount() {
-    console.log(new Date().getTime() + ' Did mount');
     this.rebuildDungeon();
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    console.log(new Date().getTime() + ' did update');
+  componentDidUpdate(prevProps) {
     if (JSON.stringify(prevProps.dungeonSettings) !== JSON.stringify(this.props.dungeonSettings)) {
-      console.log(new Date().getTime() + ' New settings');
       this.rebuildDungeon();
     }
   }
 
   componentWillUnmount() {
-    console.log(new Date().getTime() + ' Unmounting');
     this._dungeonBuildRequest = null;
   }
 
   render() {
     if (!this.state.dungeon) {
-      return (
-        <Typography component="div" color="textSecondary" variant="h4" className={styles.loading}>
-          Generating Dungeon...
-        </Typography>
-      );
+      return <Loading />;
     }
-    return (
-      <div className={styles.display}>
-        <DungeonImagerReact dungeon={this.state.dungeon} />
-      </div>
-    );
+    return <Loaded dungeon={this.state.dungeon} />;
   }
 }
+
+Dungeon.propTypes = {
+  dungeonSettings: PropTypes.shape({
+    seed: PropTypes.number.isRequired,
+    rows: PropTypes.number.isRequired,
+    cols: PropTypes.number.isRequired,
+    dungeonLayout: PropTypes.string.isRequired,
+    roomLayout: PropTypes.string.isRequired,
+    minRoomSize: PropTypes.number.isRequired,
+    maxRoomSize: PropTypes.number.isRequired,
+    corridorStraightness: PropTypes.number.isRequired,
+    stairCount: PropTypes.number.isRequired,
+    deadendRemovalChance: PropTypes.number.isRequired,
+  }).isRequired,
+};

@@ -1,5 +1,7 @@
 /* SPDX-License-Identifier: MIT */
 
+import { TypeCheck } from '../utils';
+
 /**
  * A single entry in a RandomRollTable
  */
@@ -47,13 +49,11 @@ export default class RandomRollTable {
     let weight;
     if (typeof opt_weight === 'undefined') {
       weight = 1;
-    } else if (Number.isInteger(opt_weight)) {
-      weight = opt_weight;
     } else {
-      throw new Error('weight must be an integer');
+      TypeCheck.integer('weight', opt_weight);
+      weight = opt_weight;
     }
     this._PRIVATE_totalWeight = this._PRIVATE_totalWeight + weight;
-    console.log(this._PRIVATE_totalWeight);
     this._PRIVATE_options.push(new Entry(weight, value));
   }
 

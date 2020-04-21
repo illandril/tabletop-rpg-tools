@@ -1,22 +1,19 @@
 /* SPDX-License-Identifier: MIT */
 
 import { createMuiTheme } from '@material-ui/core/styles';
-import colors from './colors.js';
+import metadata from './metadata.js';
 
 // A custom theme for this app
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: colors.primary,
+      main: metadata.colors.primary,
     },
     secondary: {
-      main: colors.secondary,
-    },
-    error: {
-      main: colors.error,
+      main: metadata.colors.secondary,
     },
     background: {
-      default: colors.background,
+      default: metadata.colors.background,
     },
   },
 });

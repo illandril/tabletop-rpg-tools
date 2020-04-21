@@ -7,4 +7,9 @@ module.exports = {
   author: 'Joe Spandrusyszyn',
   authorURL: 'https://ttrpg.illandril.net',
   baseURL: 'https://ttrpg.illandril.net',
+  colors: {
+    primary: '#37474f',
+    secondary: '#d50000',
+    background: '#ffffff',
+  },
 };

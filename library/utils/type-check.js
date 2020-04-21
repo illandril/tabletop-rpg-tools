@@ -33,6 +33,27 @@ const TypeCheck = {
       throw Error(name + ' must be an integer between ' + min + ' and ' + max);
     }
   },
+  number: (name, value) => {
+    TypeCheck.string('name', name);
+    if (typeof value !== 'number') {
+      throw Error(name + ' must be a number');
+    }
+  },
+  numberNotBelow: (name, min, value) => {
+    TypeCheck.string('name', name);
+    TypeCheck.number('min', min);
+    if (typeof value !== 'number' || value < min) {
+      throw Error(name + ' must be a number >= ' + min);
+    }
+  },
+  numberBetween: (name, min, max, value) => {
+    TypeCheck.string('name', name);
+    TypeCheck.number('min', min);
+    TypeCheck.numberNotBelow('max', min, max);
+    if (typeof value !== 'number' || value < min || value > max) {
+      throw Error(name + ' must be a number between ' + min + ' and ' + max);
+    }
+  },
   function: (name, value) => {
     TypeCheck.string('name', name);
     if (typeof value !== 'function') {

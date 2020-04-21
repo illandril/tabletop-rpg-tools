@@ -9,6 +9,8 @@
  * Algorithm source: https://github.com/bryc/code/blob/master/jshash/PRNGs.md_PRIVATE_mulberry32
  */
 
+import { TypeCheck } from '../utils';
+
 import RandomNumberGenerator from './random-number-generator.js';
 
 /**
@@ -28,12 +30,11 @@ function mulberry32(a) {
 }
 
 function toMulberry32Seed(seed) {
-  if (Number.isInteger(seed)) {
-    return seed;
-  } else if (typeof seed === 'undefined' || seed === null) {
+  if (typeof seed === 'undefined' || seed === null) {
     return Math.trunc(Math.random() * 4294967296);
   } else {
-    throw new Error('Seed is expected to be an integer value');
+    TypeCheck.integer('seed', seed);
+    return seed;
   }
 }
 

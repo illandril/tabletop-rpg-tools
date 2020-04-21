@@ -8,11 +8,9 @@ import Page from '../../../components/page.js';
 
 import Rolls from '../../../components/dice/rolls.js';
 
-import styles from './page.module.scss';
-
 const diceBag = new DiceBag();
 
-export default () => {
+export default function CharacterCreationPage() {
   const [diceList, setDiceList] = React.useState(
     'Click one of the buttons to generate attribute values.'
   );
@@ -53,7 +51,7 @@ export default () => {
   };
 
   return (
-    <Page className={styles.page} title="5e Character Creation" maxWidth="md">
+    <Page title="5e Character Creation" maxWidth="md">
       <button onClick={roll3d6}>3d6</button>
       <button onClick={roll4d6}>4d6, drop lowest</button>
       <button onClick={standardArray}>Standard Array</button>
@@ -63,4 +61,4 @@ export default () => {
       </div>
     </Page>
   );
-};
+}

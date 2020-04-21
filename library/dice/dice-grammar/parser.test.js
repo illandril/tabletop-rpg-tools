@@ -18,6 +18,12 @@ afterEach(() => {
   shortid.generate.mockRestore();
 });
 
+test.todo('No exploding or keep high/low/etc for symbolic dice');
+test.todo('Color dice?');
+test.todo('Heads/Tails Coins?');
+test.todo('Other symbolic dice?');
+test.todo('Rerolling dice?');
+
 test('NdX', () => {
   const rng = new RNGMulberry32(0);
   const parser = new Parser(rng);

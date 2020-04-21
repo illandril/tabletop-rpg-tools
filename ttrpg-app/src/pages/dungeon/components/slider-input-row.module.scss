@@ -1,8 +1,0 @@
-/* SPDX-License-Identifier: MIT */
-
-@import '../../../theme.scss';
-
-.sliderRow :global(.MuiGrid-item):first-child {
-  padding-left: theme-spacing(2);
-  padding-right: theme-spacing();
-}

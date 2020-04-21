@@ -6,10 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const colors = require('./src/colors.js');
 const metadata = require('./src/metadata.js');
-
-const SRC_DIR = path.resolve(__dirname, 'src');
 
 const FILE_PREFIX = '[name].[contenthash]';
 const CHUNK_PREFIX = 'chunk-[contenthash]';
@@ -25,28 +22,6 @@ const SVG_CLASS_PREFIXER = (node, extra) => {
   const md5 = crypto.createHash('md5');
   const pathHash = md5.update(extra.path).digest('base64');
   return sanitizeCSSClassName(fileName + '-' + pathHash.substring(0, 5));
-};
-
-const CSSLoader = {
-  loader: 'css-loader',
-  options: {
-    modules: false,
-  },
-};
-
-const CSSModuleLoader = {
-  loader: 'css-loader',
-  options: {
-    modules: {
-      mode: 'local',
-      getLocalIdent: (loaderContext, localIdentName, localName, options) => {
-        let prefix = path.relative(SRC_DIR, loaderContext.resourcePath).replace(/\\/g, '/');
-        prefix = prefix.replace(/^(page|component)s\//, '$1_');
-        prefix = prefix.replace(/(\/page)?\.module\.scss$/, '');
-        return sanitizeCSSClassName(prefix + '__' + localName);
-      },
-    },
-  },
 };
 
 const ImageLoaders = [
@@ -85,16 +60,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, CSSLoader],
-      },
-      {
-        test: /\.scss$/,
-        exclude: /\.module\.scss$/,
-        use: [MiniCssExtractPlugin.loader, CSSLoader, 'sass-loader'],
-      },
-      {
-        test: /\.module\.scss$/,
-        use: [MiniCssExtractPlugin.loader, CSSModuleLoader, 'sass-loader'],
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
         test: /\.jsx?$/,
@@ -133,13 +99,6 @@ module.exports = {
         ],
       },
       {
-        test: /\.svg$/,
-        issuer: {
-          test: /\.s?css?$/,
-        },
-        use: ImageLoaders,
-      },
-      {
         test: /\.(png|jpe?g|gif)?$/,
         exclude: /node_modules/,
         use: ImageLoaders,
@@ -156,8 +115,8 @@ module.exports = {
         appDescription: metadata.description,
         developerName: metadata.author,
         developerURL: metadata.authorURL,
-        background: colors.background,
-        theme_color: colors.primary,
+        background: metadata.colors.background,
+        theme_color: metadata.colors.primary,
         appleStatusBarStyle: 'default',
         display: 'minimal-ui',
         orientation: 'any',

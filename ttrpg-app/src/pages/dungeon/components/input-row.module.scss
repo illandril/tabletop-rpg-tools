@@ -1,7 +1,0 @@
-/* SPDX-License-Identifier: MIT */
-
-@import '../../../theme.scss';
-
-.inputRow + .inputRow {
-  margin-top: theme-spacing(2);
-}

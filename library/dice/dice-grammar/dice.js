@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: MIT */
 
-import ObjectWithAutoID from '../../utils/object-with-auto-id.js';
+import { ObjectWithAutoID, TypeCheck } from '../../utils';
 
 export default class Dice extends ObjectWithAutoID {
   _PRIVATE_rng;
@@ -10,18 +10,8 @@ export default class Dice extends ObjectWithAutoID {
   _PRIVATE_value;
   constructor(rng, count, sides) {
     super();
-    if (!Number.isInteger(count)) {
-      throw Error('count must be an integer');
-    }
-    if (count < 1) {
-      throw Error('sides must be greater than 0');
-    }
-    if (!Number.isInteger(sides)) {
-      throw Error('sides must be an integer');
-    }
-    if (sides < 2) {
-      throw Error('sides must be greater than 1');
-    }
+    TypeCheck.integerNotBelow('count', 1, count);
+    TypeCheck.integerNotBelow('sides', 2, sides);
     this._PRIVATE_rng = rng;
     this._PRIVATE_count = count;
     this._PRIVATE_sides = sides;

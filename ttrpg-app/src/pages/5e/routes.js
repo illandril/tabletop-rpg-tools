@@ -6,7 +6,7 @@ import { Switch, Route, useRouteMatch } from 'react-router-dom';
 import CharacterCreationPage from './character-creation/';
 import SpellTablesPage from './spell-tables/';
 
-export default () => {
+export default function FifthEditionRoutes() {
   const match = useRouteMatch();
   const prefix = match.url;
   return (
@@ -19,4 +19,4 @@ export default () => {
       </Route>
     </Switch>
   );
-};
+}

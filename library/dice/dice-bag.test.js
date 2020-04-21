@@ -3,7 +3,6 @@
 import shortid from 'shortid';
 
 import RNGMulberry32 from './random-number-generator-mulberry32.js';
-import Constant from './dice-grammar/constant.js';
 import DiceBag from './dice-bag.js';
 
 beforeEach(() => {
@@ -41,7 +40,7 @@ test('invalid arguments', () => {
 
 test('custom rng', () => {
   const dValues = [1, 2, 3, 4, 5, 6, 1, 20];
-  const mockD = jest.fn((sides) => dValues.shift());
+  const mockD = jest.fn(() => dValues.shift());
   const rng = {
     d: mockD,
   };
@@ -69,7 +68,7 @@ test('custom rng', () => {
 
 test('custom parser', () => {
   const parseValues = [{ value: 1 }, { value: 8 }];
-  const mockParse = jest.fn((input) => parseValues.shift());
+  const mockParse = jest.fn(() => parseValues.shift());
   const parser = {
     parse: mockParse,
   };

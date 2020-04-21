@@ -1,11 +1,25 @@
 /* SPDX-License-Identifier: MIT */
 
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import clsx from 'clsx';
 
-import styles from './input-row.module.scss';
+import { makeStyles } from '@material-ui/core/styles';
 
-export default ({ children, className }) => {
-  return <div className={clsx(styles.inputRow, className)}>{children}</div>;
+const useStyles = makeStyles((theme) => ({
+  inputRow: {
+    '& + &': {
+      marginTop: theme.spacing(2),
+    },
+  },
+}));
+
+export default function InputRow({ children, className }) {
+  const classes = useStyles();
+  return <div className={clsx(classes.inputRow, className)}>{children}</div>;
+}
+
+InputRow.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
 };

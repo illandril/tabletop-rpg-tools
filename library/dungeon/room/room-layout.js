@@ -1,5 +1,7 @@
 /* SPDX-License-Identifier: MIT */
 
+import { TypeCheck } from '../../utils';
+
 import Room from './room.js';
 
 export default class RoomLayout {
@@ -10,9 +12,7 @@ export default class RoomLayout {
     return this._PRIVATE_minRoomSize;
   }
   set minRoomSize(minRoomSize) {
-    if (!Number.isInteger(minRoomSize) || minRoomSize < 2) {
-      throw new Error('minRoomSize must an integer greater than 1');
-    }
+    TypeCheck.integerNotBelow('minRoomSize', 2, minRoomSize);
     this._PRIVATE_minRoomSize = minRoomSize;
   }
 
@@ -20,9 +20,7 @@ export default class RoomLayout {
     return Math.max(this.minRoomSize, this._PRIVATE_maxRoomSize);
   }
   set maxRoomSize(maxRoomSize) {
-    if (!Number.isInteger(maxRoomSize) || maxRoomSize < 2) {
-      throw new Error('$1');
-    }
+    TypeCheck.integerNotBelow('maxRoomSize', 2, maxRoomSize);
     this._PRIVATE_maxRoomSize = maxRoomSize;
   }
 
@@ -30,8 +28,8 @@ export default class RoomLayout {
     return this.maxRoomSize - this.minRoomSize;
   }
 
-  placeRooms(rng, dungeon) {
-    throw new Error('$1');
+  placeRooms() {
+    throw Error('placeRooms was not implemented');
   }
 
   placeRandomSizedRoom(rng, dungeon, north, west) {

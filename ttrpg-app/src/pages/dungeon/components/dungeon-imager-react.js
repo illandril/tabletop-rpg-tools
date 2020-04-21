@@ -1,6 +1,9 @@
 /* SPDX-License-Identifier: MIT */
 
 import React from 'react';
+import PropTypes from 'prop-types';
+
+import Dungeon from '@illandril/tabletop-rpg-tools/dungeon/dungeon/dungeon.js';
 
 import '@illandril/tabletop-rpg-tools/dungeon/imaging/html/style.css';
 
@@ -9,7 +12,7 @@ import '@illandril/tabletop-rpg-tools/dungeon/imaging/html/style.css';
  */
 const CSS_PREFIX = 'dungeonjs-';
 
-export default ({ dungeon }) => {
+export default function DungeonImagerReact({ dungeon }) {
   const rows = [];
   for (let row = 0; row < dungeon.cellRows; row++) {
     const cells = [];
@@ -54,4 +57,8 @@ export default ({ dungeon }) => {
       <tbody>{rows}</tbody>
     </table>
   );
+}
+
+DungeonImagerReact.propTypes = {
+  dungeon: PropTypes.instanceOf(Dungeon).isRequired,
 };

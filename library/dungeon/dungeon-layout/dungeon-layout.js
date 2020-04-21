@@ -1,5 +1,6 @@
 /* SPDX-License-Identifier: MIT */
 
+import { TypeCheck } from '../../utils';
 import Mask from './layout-mask.js';
 
 export default class DungeonLayout {
@@ -8,12 +9,8 @@ export default class DungeonLayout {
   _PRIVATE_maskAreas;
   _PRIVATE_excludedAreas;
   constructor(id, name, maskAreas, opt_excludedAreas) {
-    if (typeof id !== 'string') {
-      throw new Error('id must be a string');
-    }
-    if (typeof name !== 'string') {
-      throw new Error('name must be a string');
-    }
+    TypeCheck.string('id', id);
+    TypeCheck.string('name', name);
     this._PRIVATE_id = id;
     this._PRIVATE_name = name;
     this._PRIVATE_maskAreas = maskAreas;
