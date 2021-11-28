@@ -294,7 +294,7 @@ test('dice math', () => {
   });
 });
 
-test('graceful errors', () => {
+describe('graceful errors', () => {
   const rng = new RNGMulberry32(0);
   const parser = new Parser(rng);
   function expectParseError(fn, message, causeMessagePrefix) {
@@ -311,53 +311,76 @@ test('graceful errors', () => {
       }
     }
   }
-  expectParseError(() => parser.parse(null), 'input must be a non-empty string');
-  expectParseError(() => parser.parse(5), 'input must be a non-empty string');
-  expectParseError(() => parser.parse({}), 'input must be a non-empty string');
-  expectParseError(() => parser.parse(''), 'input must be a non-empty string');
-  expectParseError(
-    () => parser.parse('1e20'),
-    'Error parsing input',
-    `Syntax error at line 1 col 2:
+  test('null', () => {
+    expectParseError(() => parser.parse(null), 'input must be a non-empty string');
+  });
+  test('number', () => {
+    expectParseError(() => parser.parse(5), 'input must be a non-empty string');
+  });
+  test('object', () => {
+    expectParseError(() => parser.parse({}), 'input must be a non-empty string');
+  });
+  test('empty string', () => {
+    expectParseError(() => parser.parse(''), 'input must be a non-empty string');
+  });
+  test('1e20', () => {
+    expectParseError(
+      () => parser.parse('1e20'),
+      'Error parsing input',
+      `Syntax error at line 1 col 2:
 
-  1e20
+1 1e20
    ^
+
 Unexpected "e".`
-  );
-  expectParseError(
-    () => parser.parse('3d3d3'),
-    'Error parsing input',
-    `Syntax error at line 1 col 5:
+    );
+  });
+  test('3d3d3', () => {
+    expectParseError(
+      () => parser.parse('3d3d3'),
+      'Error parsing input',
+      `Syntax error at line 1 col 5:
 
-  3d3d3
+1 3d3d3
       ^
+
 Unexpected "3".`
-  );
-  expectParseError(
-    () => parser.parse('3dx'),
-    'Error parsing input',
-    `Syntax error at line 1 col 3:
+    );
+  });
+  test('3dx', () => {
+    expectParseError(
+      () => parser.parse('3dx'),
+      'Error parsing input',
+      `Syntax error at line 1 col 3:
 
-  3dx
+1 3dx
     ^
-Unexpected "x".`
-  );
-  expectParseError(
-    () => parser.parse('x3d'),
-    'Error parsing input',
-    `Syntax error at line 1 col 1:
 
-  x3d
+Unexpected "x".`
+    );
+  });
+  test('x3d', () => {
+    expectParseError(
+      () => parser.parse('x3d'),
+      'Error parsing input',
+      `Syntax error at line 1 col 1:
+
+1 x3d
   ^
-Unexpected "x".`
-  );
-  expectParseError(
-    () => parser.parse('1-+2'),
-    'Error parsing input',
-    `Syntax error at line 1 col 3:
 
-  1-+2
+Unexpected "x".`
+    );
+  });
+  test('1-+2', () => {
+    expectParseError(
+      () => parser.parse('1-+2'),
+      'Error parsing input',
+      `Syntax error at line 1 col 3:
+
+1 1-+2
     ^
+
 Unexpected "+".`
-  );
+    );
+  });
 });
